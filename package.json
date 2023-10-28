@@ -1,0 +1,28 @@
+{
+  "name": "race",
+  "version": "1.0.0",
+  "description": "Readiness Assessment for CARE Endeavour",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/secureum/RACE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/secureum/RACE/issues"
+  },
+  "homepage": "https://github.com/secureum/RACE#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^9.2.11",
+    "markdown-it": "^13.0.2",
+    "markdown-to-json": "^0.5.4",
+    "marked": "^9.1.2",
+    "path": "^0.12.7"
+  }
+}
