@@ -104,8 +104,8 @@ contract FlashLoan is IERC3156FlashLender {
 (A): ERC223 \
 (b): ERC677 \
 (B): ERC777 \
-(C): ERC1155 
-    
+(C): ERC1155
+
 **[Answers]:  C**
 
 ---
@@ -114,7 +114,7 @@ contract FlashLoan is IERC3156FlashLender {
 (A): `onFlashLoan()` \
 (B): `balanceOf()` \
 (C): `transferFrom()` \
-(D): `approve()` 
+(D): `approve()`
 
 **[Answers]:  C**
 
@@ -126,11 +126,11 @@ contract FlashLoan is IERC3156FlashLender {
 (C): To pay those who staked their funds to be flashloaned \
 (D): It has no purpose
 
-**[Answers]:  A** 
+**[Answers]:  A**
 
 ---
 
-**[Q6] [Q6] Which of the following describes the behavior of `maxFlashLoan` for a standard ERC20 token over time?** \
+**[Q6] Which of the following describes the behavior of `maxFlashLoan` for a standard ERC20 token over time?** \
 (A): Strictly-increasing \
 (B): Non-decreasing \
 (C): Constant \
@@ -156,6 +156,6 @@ contract FlashLoan is IERC3156FlashLender {
 (C): The sum of all flashloans granted by the `FlashLoan` contract is less than the `maxFlashLoan` amount \
 (D): The token balance of any contract/user other than the `FlashLoan` contract, the caller of the `flashLoan()`, and the “receiver” contract will remain the same as before the call to `flashLoan()`
 
-**[Answers]:  B**  
+**[Answers]:  B**
 
 ---
