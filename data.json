@@ -23,7 +23,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "2] The given contract snippet has",
@@ -49,7 +50,8 @@
     "correctAnswers": [
       "A",
       "B"
-    ]
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "3] The given contract snippet has",
@@ -75,7 +77,35 @@
     "correctAnswers": [
       "A",
       "C"
-    ]
+    ],
+    "race": "RACE-0.md"
+  },
+  {
+    "question": "4] In the given contract snippet",
+    "context": "pragma solidity 0.8.4;\n```\ncontract test {\n\n    // Assume other required functionality is correctly implemented\n\n    mapping (uint256 => address) addresses;\n    bool check;\n\n    modifier onlyIf() {\n        if (check) {\n            _;\n        }\n    }\n\n    function setAddress(uint id, address addr) public {\n        addresses[id] = addr;\n    }\n\n    function getAddress(uint id) public onlyIf returns (address) {\n        return addresses[id];\n    }\n}\n```",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "*getAddress* returns the expected addresses if *check* is true"
+      },
+      {
+        "choice": "B",
+        "answer": "*getAddress* returns zero address if *check* is false"
+      },
+      {
+        "choice": "C",
+        "answer": "*getAddress* reverts if *check* is false"
+      },
+      {
+        "choice": "D",
+        "answer": "None of the above"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "5] The security concern(s) in the given contract snippet is/are",
@@ -103,7 +133,8 @@
       "B",
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "6] The vulnerability/vulnerabilities present in the given contract snippet is/are",
@@ -134,7 +165,8 @@
       "B",
       "C",
       "D or D"
-    ]
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "7] The security concern(s) in the given contract snippet is/are",
@@ -160,7 +192,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "8] The security concern(s) in the given contract snippet is/are",
@@ -186,7 +219,8 @@
     "correctAnswers": [
       "B",
       "D"
-    ]
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "9] The given contract snippet is vulnerable because of",
@@ -211,7 +245,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "10] In the given contract snippet, the require check will",
@@ -236,7 +271,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "11] The security concern(s) in the given contract snippet is/are",
@@ -264,7 +300,8 @@
       "B",
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "12] The security concern(s) in the given contract snippet is/are",
@@ -291,7 +328,8 @@
       "A",
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "13] The security concern(s) in the given proxy-based implementation contract snippet is/are",
@@ -317,7 +355,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "14] The security concern(s) in the given contract snippet is/are",
@@ -344,7 +383,8 @@
       "A",
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "15] The vulnerability/vulnerabilities present in the given contract snippet is/are",
@@ -369,7 +409,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "16] The security concern(s) in the given contract snippet is/are",
@@ -397,7 +438,8 @@
       "B",
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-0.md"
   },
   {
     "question": "1] The _InSecureumToken_ contract strictly follows the specification of",
@@ -422,7 +464,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-1.md"
   },
   {
     "question": "2] To avoid lock of funds, the following feature(s) MUST be implemented before contract deployment",
@@ -447,7 +490,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-1.md"
   },
   {
     "question": "3] Which of the following assertion(s) is/are true (without affecting the security posture of the contract)?",
@@ -473,7 +517,8 @@
     "correctAnswers": [
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-1.md"
   },
   {
     "question": "4] The total supply is limited by",
@@ -498,7 +543,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-1.md"
   },
   {
     "question": "5] The following issue(s) is/are present in the codebase",
@@ -523,7 +569,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-1.md"
   },
   {
     "question": "6] The following issue(s) is/are present in the codebase",
@@ -548,7 +595,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-1.md"
   },
   {
     "question": "7] The following issue(s) is/are present in the codebase",
@@ -573,7 +621,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-1.md"
   },
   {
     "question": "8] The following issue(s) is/are present in the codebase",
@@ -599,7 +648,8 @@
     "correctAnswers": [
       "D or B or C or B",
       "C"
-    ]
+    ],
+    "race": "RACE-1.md"
   },
   {
     "question": "1] Which statements are true in `Test1()`?",
@@ -626,7 +676,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-10.md"
   },
   {
     "question": "2] Which statements are true in `Test2()`?",
@@ -652,7 +703,8 @@
     "correctAnswers": [
       "A",
       "C"
-    ]
+    ],
+    "race": "RACE-10.md"
   },
   {
     "question": "3] Which statements are true in `NextBookNonce()`?",
@@ -678,7 +730,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-10.md"
   },
   {
     "question": "4] Which statements are true in `Test3()`?",
@@ -704,7 +757,8 @@
     "correctAnswers": [
       "A",
       "C"
-    ]
+    ],
+    "race": "RACE-10.md"
   },
   {
     "question": "5] Which statements are true In `Test4()`?",
@@ -730,7 +784,8 @@
     "correctAnswers": [
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-10.md"
   },
   {
     "question": "6] Which statements are true in `Test5()`?",
@@ -756,7 +811,8 @@
     "correctAnswers": [
       "B",
       "D"
-    ]
+    ],
+    "race": "RACE-10.md"
   },
   {
     "question": "7] Which statements are true about the owner?",
@@ -782,7 +838,8 @@
     "correctAnswers": [
       "A",
       "D"
-    ]
+    ],
+    "race": "RACE-10.md"
   },
   {
     "question": "8] Which statements are true In `Test5()` and related functions?",
@@ -808,7 +865,8 @@
     "correctAnswers": [
       "A",
       "D"
-    ]
+    ],
+    "race": "RACE-10.md"
   },
   {
     "question": "2] Which mitigations are applicable to `withdraw()`?",
@@ -835,7 +893,8 @@
       "A",
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-11.md"
   },
   {
     "question": "3] The security concern(s) in `pause()` is/are:",
@@ -860,7 +919,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-11.md"
   },
   {
     "question": "4] Which statement(s) is/are true for `unpause()`?",
@@ -886,7 +946,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-11.md"
   },
   {
     "question": "5] Which statement(s) is/are true in `depositFor()`?",
@@ -912,7 +973,8 @@
     "correctAnswers": [
       "A",
       "B"
-    ]
+    ],
+    "race": "RACE-11.md"
   },
   {
     "question": "6] The issue(s) in `depositFor()` is/are:",
@@ -938,7 +1000,8 @@
     "correctAnswers": [
       "A",
       "C"
-    ]
+    ],
+    "race": "RACE-11.md"
   },
   {
     "question": "7] Which of the following statement(s) is/are true?",
@@ -964,7 +1027,8 @@
     "correctAnswers": [
       "B",
       "D"
-    ]
+    ],
+    "race": "RACE-11.md"
   },
   {
     "question": "8] Potential gas optimization(s) is/are:",
@@ -990,7 +1054,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-11.md"
   },
   {
     "question": "2] What would a caller with `MIGRATOR_ROLE` permission be capable of?",
@@ -1016,7 +1081,8 @@
     "correctAnswers": [
       "A",
       "B"
-    ]
+    ],
+    "race": "RACE-12.md"
   },
   {
     "question": "3] Vault initialized with TokenV1 as underlying",
@@ -1041,7 +1107,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-12.md"
   },
   {
     "question": "4] If Vault were to use `safeTransferFrom` instead of `transferFrom` then",
@@ -1066,7 +1133,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-12.md"
   },
   {
     "question": "5] Who would need the `MIGRATOR_ROLE` for TokenV2 to function as intended?",
@@ -1091,7 +1159,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-12.md"
   },
   {
     "question": "6] With TokenV2 deployed, a Vault initialized with TokenV1 as underlying",
@@ -1116,7 +1185,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-12.md"
   },
   {
     "question": "7] Vault initialized with TokenV2 as underlying",
@@ -1142,7 +1212,8 @@
     "correctAnswers": [
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-12.md"
   },
   {
     "question": "8] The PermitModule contract",
@@ -1168,7 +1239,8 @@
     "correctAnswers": [
       "B",
       "D"
-    ]
+    ],
+    "race": "RACE-12.md"
   },
   {
     "question": "1] In `transferFrom()`, `unchecked` is __not__ used in the allowance subtraction:\\",
@@ -1193,7 +1265,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-13.md"
   },
   {
     "question": "2] In `transfer()` and `transferFrom()`, the use of `unchecked` would __not__ be desired:\\",
@@ -1218,7 +1291,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-13.md"
   },
   {
     "question": "3] In `name()` and `symbol()`, the returned values are incorrect because:\\",
@@ -1243,7 +1317,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-13.md"
   },
   {
     "question": "4] To correct `name()`, one could make the following change(s):\\",
@@ -1270,7 +1345,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-13.md"
   },
   {
     "question": "5] The concern(s) with the check in `notify()` is/are:\\",
@@ -1295,7 +1371,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-13.md"
   },
   {
     "question": "6] The concern(s) with the call in `notify()` is/are:\\",
@@ -1320,7 +1397,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-13.md"
   },
   {
     "question": "7] Potential change(s) to `notify()` to mitigate further security concern(s) is/are:\\",
@@ -1345,7 +1423,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-13.md"
   },
   {
     "question": "8] How can the contract be exploited for loss-of-funds via notify callback reentrancy?\\",
@@ -1370,7 +1449,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-13.md"
   },
   {
     "question": "1] Lending platforms have a few options to configure when it comes to adding new tokens as collateral. For example, you’ll have to set up an oracle for the price of the collateral, and you have to configure a margin requirement. The security concern with using the given collateral configuration is:",
@@ -1395,7 +1475,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-14.md"
   },
   {
     "question": "2] Assuming payFees() is periodically called by a function, which iteratively calls payFees() of all collateral contracts, the security concern(s) is/are:",
@@ -1421,7 +1502,8 @@
     "correctAnswers": [
       "B",
       "D"
-    ]
+    ],
+    "race": "RACE-14.md"
   },
   {
     "question": "3] The developers want to prevent people from accidentally sending ETH instead of WETH and have implemented a noETH modifier, as defined above, and annotated the deposit function with it. They have also not implemented a receive function. Which of the following statements is true?",
@@ -1446,7 +1528,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-14.md"
   },
   {
     "question": "4] Developers have used assembly to make their code a bit less repetitive. They use it to annotate a bunch of functions that have as their last argument a pool address. Unfortunately they made a mistake. Which of the following options fixes the bug?",
@@ -1471,7 +1554,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-14.md"
   },
   {
     "question": "5] The lending protocol has also built in a liquidation function to be called in the case of under-collateralization. Anyone can call the function and be rewarded for calling it by taking a small percentage of the liquidation. The liquidation function has a vulnerability  which can be exploited because:",
@@ -1496,7 +1580,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-14.md"
   },
   {
     "question": "6] Assume that the vulnerability referenced in the previous question has been fixed by changing the line with the Liquidation event emission to emit Liquidation(lender, oldDeposit). The protocol team has built a bot that monitors and liquidates under-collateralized positions automatically. Even though the bot does not monitor the mempool, it simulates the full transaction and, if successful, sends transactions with the exact amount to be able to execute the function + 100000 gas for minimal execution in the onLiquidation() callback. Which of these attacks can be executed in a harmful way towards the protocol?",
@@ -1521,7 +1606,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-14.md"
   },
   {
     "question": "7] In the context of Questions 5 and 6, someone built a MEV frontrunner bot that is exploiting liquidations in different protocols. It monitors the mempool for collateral contracts deployed from the lending factory and simulates transactions in a mainnet fork within Foundry to check whether it should attack them. The logic behind the bot is that it checks only the token’s “Transfer” events for its success conditions. More precisely, it checks if there is liquidity in an AMM to exchange to ETH and make sure it turns a profit at the end. If so, it sends a Flashbot bundle to make a profit by frontrunning the liquidator. Knowing the factory for this new contract is permissionless, how could you extract assets out of this bot?",
@@ -1546,7 +1632,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-14.md"
   },
   {
     "question": "8] The protocol implemented a function to transfer collateral from lender A to lender B with a signature from A, as shown above. Is there a way you can break it?",
@@ -1571,7 +1658,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-14.md"
   },
   {
     "question": "1] What is/are the correct implementation(s) of the `nonReentrant()` modifier? \\",
@@ -1597,7 +1685,8 @@
     "correctAnswers": [
       "B",
       "D"
-    ]
+    ],
+    "race": "RACE-15.md"
   },
   {
     "question": "2] Who can claim fees using `claimFees()`? \\",
@@ -1623,7 +1712,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-15.md"
   },
   {
     "question": "3] In `buyEth()`, we put an `unchecked` block on “`current_eth -= amount`”: \\",
@@ -1648,7 +1738,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-15.md"
   },
   {
     "question": "4] In `buyEth()`, are there any reentrancy concerns assuming the `nonReentrant` modifier is implemented correctly? \\",
@@ -1673,7 +1764,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-15.md"
   },
   {
     "question": "5] What will happen when calling `buyEth()` via `SimpleDexProxy`? \\",
@@ -1698,7 +1790,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-15.md"
   },
   {
     "question": "6] In `buyEth()`: \\",
@@ -1724,7 +1817,8 @@
     "correctAnswers": [
       "A",
       "C"
-    ]
+    ],
+    "race": "RACE-15.md"
   },
   {
     "question": "7] Can `getEthPrice()` return zero? \\",
@@ -1745,7 +1839,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-15.md"
   },
   {
     "question": "8] Which of the following invariants (written in propositional logic) hold on a correct implementation of the code? \\",
@@ -1771,7 +1866,8 @@
     "correctAnswers": [
       "B",
       "D"
-    ]
+    ],
+    "race": "RACE-15.md"
   },
   {
     "question": "1] Which of the following is an explanation of why `flashLoan()` could revert? \\",
@@ -1798,7 +1894,8 @@
       "A",
       "B",
       "D"
-    ]
+    ],
+    "race": "RACE-16.md"
   },
   {
     "question": "2] If the `FlashLoan` contract were safe, which of the following invariants should hold at the end of any given transaction for some ERC20 token t? Note: old(expr) evaluates expr at the beginning of the transaction. \\",
@@ -1823,7 +1920,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-16.md"
   },
   {
     "question": "3] Which of the following tokens would be unsafe for the above contract to loan as doing so could result in theft? \\",
@@ -1844,7 +1942,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-16.md"
   },
   {
     "question": "4] Which external call made by `flashLoan()` could result in theft if the token(s) identified in the previous question  were to be used? \\",
@@ -1869,7 +1968,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-16.md"
   },
   {
     "question": "5] What is the purpose of the fee in the `FlashLoan` contract as is? \\",
@@ -1894,10 +1994,11 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-16.md"
   },
   {
-    "question": "6] [Q6] Which of the following describes the behavior of `maxFlashLoan` for a standard ERC20 token over time? \\",
+    "question": "6] Which of the following describes the behavior of `maxFlashLoan` for a standard ERC20 token over time? \\",
     "context": "*\n```\n// SPDX-License-Identifier: Unlicense\npragma solidity ^0.8.0;\n\nimport \"@openzeppelin/contracts/interfaces/IERC3156FlashLender.sol\";\nimport \"@openzeppelin/contracts/interfaces/IERC20.sol\";\n\ncontract FlashLoan is IERC3156FlashLender {\n   bytes32 public constant CALLBACK_SUCCESS = keccak256(\"ERC3156FlashBorrower.onFlashLoan\");\n   uint256 public fee;\n\n   /**\n    * @param fee_ the fee that should be paid on a flashloan\n    */\n   constructor (\n       uint256 fee_\n   ) {\n       fee = fee_;\n   }\n\n   /**\n    * @dev The amount of currency available to be lent.\n    * @param token The loan currency.\n    * @return The amount of `token` that can be borrowed.\n    */\n   function maxFlashLoan(\n       address token\n   ) public view override returns (uint256) {\n       return IERC20(token).balanceOf(address(this));\n   }\n\n   /**\n    * @dev The fee to be charged for a given loan.\n    * @param token The loan currency. Must match the address of this contract.\n    * @param amount The amount of tokens lent.\n    * @return The amount of `token` to be charged for the loan, on top of the returned principal.\n    */\n   function flashFee(\n       address token,\n       uint256 amount\n   ) external view override returns (uint256) {\n       return fee;\n   }\n\n   /**\n    * @dev Loan `amount` tokens to `receiver`, and takes it back plus a `flashFee` after the ERC3156 callback.\n    * @param receiver The contract receiving the tokens, needs to implement the `onFlashLoan(address user, uint256 amount, uint256 fee, bytes calldata)` interface.\n    * @param token The loan currency. Must match the address of this contract.\n    * @param amount The amount of tokens lent.\n    * @param data A data parameter to be passed on to the `receiver` for any custom use.\n    */\n   function flashLoan(\n       IERC3156FlashBorrower receiver,\n       address token,\n       uint256 amount,\n       bytes calldata data\n   ) external override returns (bool){\n       uint256 oldAllowance = IERC20(token).allowance(address(this), address(receiver));\n       uint256 oldBal = IERC20(token).balanceOf(address(this));\n       require(amount <= oldBal, \"Too many funds requested\");\n       IERC20(token).approve(address(receiver), oldAllowance + amount);\n\n       require(\n           receiver.onFlashLoan(msg.sender, token, amount, fee, data) == CALLBACK_SUCCESS,\n           \"Callback failed\"\n       );\n\n       uint256 newBal = IERC20(token).balanceOf(address(this));\n       if(newBal < oldBal + fee) {\n           uint retAmt = oldBal + fee - newBal;\n           require(IERC20(token).transferFrom(msg.sender, address(this), retAmt), \"All funds not returned\");\n       }\n\n       if (IERC20(token).allowance(address(this), address(receiver)) > oldAllowance) {\n           IERC20(token).approve(address(receiver), oldAllowance);\n       }\n       return true;\n   }\n}\n```\n",
     "possibleAnswers": [
       {
@@ -1919,7 +2020,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-16.md"
   },
   {
     "question": "7] For some arbitrary ERC20 token t, which of the following accurately describes the `FlashLoan` contract's balance of t after a successful (i.e. non-reverting) call to `flashLoan()` (where t is the token requested for the flashloan)? \\",
@@ -1944,7 +2046,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-16.md"
   },
   {
     "question": "8] Which of the following are guaranteed to hold after a successful (i.e., non-reverting) execution of `flashLoan()`, assuming the token for which the flashloan is requested uses OpenZeppelin’s Standard ERC20 implementation? \\",
@@ -1969,7 +2072,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-16.md"
   },
   {
     "question": "1] deposit() can revert: \\",
@@ -1995,7 +2099,8 @@
     "correctAnswers": [
       "A",
       "B"
-    ]
+    ],
+    "race": "RACE-17.md"
   },
   {
     "question": "2] What issues pertain to the `deposit()` function? \\",
@@ -2020,7 +2125,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-17.md"
   },
   {
     "question": "3] Which of the following is/are true about `withdraw()`? \\",
@@ -2045,7 +2151,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-17.md"
   },
   {
     "question": "4] Which of the following parameters are correctly emitted in the `ContributorsUpdated()` event? \\",
@@ -2070,7 +2177,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-17.md"
   },
   {
     "question": "5] The vault deployer can pause the following functions: \\",
@@ -2095,7 +2203,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-17.md"
   },
   {
     "question": "6] What is the largest possible allowance given to the controller? \\",
@@ -2120,7 +2229,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-17.md"
   },
   {
     "question": "7] The `requestAllowance()` implementation would have failed after the 1st call for tokens that only allow zero to non-zero allowances. Which of the following mitigations do NOT work? \\",
@@ -2147,7 +2257,8 @@
       "B",
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-17.md"
   },
   {
     "question": "8] Which of the following gas optimizations are relevant in reducing runtime gas costs for the vault contract? \\",
@@ -2173,7 +2284,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-17.md"
   },
   {
     "question": "1] What risk(s) should be considered when reviewing this contract? \\",
@@ -2201,7 +2313,8 @@
       "B",
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-18.md"
   },
   {
     "question": "2] Which of the following statement(s) is/are true? \\",
@@ -2227,7 +2340,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-18.md"
   },
   {
     "question": "3] Which of the following is an/are invariant(s) that should hold true? (assuming no bug) \\",
@@ -2252,7 +2366,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-18.md"
   },
   {
     "question": "4] Which of the following sentence(s) is/are true regarding `getBalances`? \\",
@@ -2277,7 +2392,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-18.md"
   },
   {
     "question": "5] Which of the following sentence(s) is/are true regarding the `balances` mapping? \\",
@@ -2302,7 +2418,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-18.md"
   },
   {
     "question": "6] Which of the following sentence(s) is/are true regarding reentrancies in this contract? \\",
@@ -2327,7 +2444,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-18.md"
   },
   {
     "question": "7] The `mint` function has the following risks (assuming there are no bugs in the other functions): \\",
@@ -2352,7 +2470,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-18.md"
   },
   {
     "question": "8] The `burn` and `_has_enough_balance` functions have the following risks (assuming there are no bugs in the other functions): \\",
@@ -2377,7 +2496,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-18.md"
   },
   {
     "question": "1] The deployment concern(s) here for different EVM-compatible chains is/are: \\",
@@ -2402,7 +2522,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-19.md"
   },
   {
     "question": "2] The security concern(s) in `WalletFactory` is/are: \\",
@@ -2428,7 +2549,8 @@
     "correctAnswers": [
       "A",
       "D"
-    ]
+    ],
+    "race": "RACE-19.md"
   },
   {
     "question": "3] Design flaw(s) of `Wallet` is/are: \\",
@@ -2453,7 +2575,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-19.md"
   },
   {
     "question": "4] The security concern(s) with hashing of `transaction` parameter in `execute` is/are: \\",
@@ -2478,7 +2601,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-19.md"
   },
   {
     "question": "5] If the hashed payload in `execute` were to exclude a nonce, the security concern(s) with `ecrecover` would be: \\",
@@ -2503,7 +2627,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-19.md"
   },
   {
     "question": "6] The security concern(s) with `Wallet` is/are: \\",
@@ -2529,7 +2654,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-19.md"
   },
   {
     "question": "7] The nonce best practice(s) _not_ followed correctly is/are: \\",
@@ -2555,7 +2681,8 @@
     "correctAnswers": [
       "A",
       "C"
-    ]
+    ],
+    "race": "RACE-19.md"
   },
   {
     "question": "8] The security concern(s) with `Wallet` contract related to ERC721 tokens is/are: \\",
@@ -2581,7 +2708,8 @@
     "correctAnswers": [
       "B",
       "D"
-    ]
+    ],
+    "race": "RACE-19.md"
   },
   {
     "question": "1] Based on the comments and code shown in the _InSecureumDAO_ snippet",
@@ -2608,7 +2736,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-2.md"
   },
   {
     "question": "2] Based on the code shown in the _InSecureumDAO_ snippet",
@@ -2633,7 +2762,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-2.md"
   },
   {
     "question": "3] Reentrancy protection only on _join()_ (assume it’s correctly specified) indicates that",
@@ -2658,7 +2788,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-2.md"
   },
   {
     "question": "4] Access control on _msg.sender_ for DAO membership is required in",
@@ -2684,7 +2815,8 @@
     "correctAnswers": [
       "A",
       "B"
-    ]
+    ],
+    "race": "RACE-2.md"
   },
   {
     "question": "5] A commit/reveal scheme (a cryptographic primitive that allows one to commit to a chosen value while keeping it hidden from others, with the ability to reveal the committed value later) is relevant for",
@@ -2709,7 +2841,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-2.md"
   },
   {
     "question": "6] Security concern(s) from missing input validation(s) is/are present in",
@@ -2735,7 +2868,8 @@
     "correctAnswers": [
       "A",
       "D"
-    ]
+    ],
+    "race": "RACE-2.md"
   },
   {
     "question": "7] _removeAllMembers()_ function",
@@ -2761,7 +2895,8 @@
     "correctAnswers": [
       "A",
       "C"
-    ]
+    ],
+    "race": "RACE-2.md"
   },
   {
     "question": "8] _InSecureumDAO_ will not be susceptible to something like the 2016 “DAO exploit”",
@@ -2786,7 +2921,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-2.md"
   },
   {
     "question": "1] Select all true statements: \\",
@@ -2811,7 +2947,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-20.md"
   },
   {
     "question": "2] Select all true statements about the expression `mstore(0x40, add(str, 128))` \\",
@@ -2836,7 +2973,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-20.md"
   },
   {
     "question": "3] Select all true statements: \\",
@@ -2862,7 +3000,8 @@
     "correctAnswers": [
       "A",
       "B"
-    ]
+    ],
+    "race": "RACE-20.md"
   },
   {
     "question": "4] Select all true statements: \\",
@@ -2888,7 +3027,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-20.md"
   },
   {
     "question": "5] Select all true statements: \\",
@@ -2913,7 +3053,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-20.md"
   },
   {
     "question": "6] Select all true statements: \\",
@@ -2938,7 +3079,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-20.md"
   },
   {
     "question": "7] Select all true statements: \\",
@@ -2964,7 +3106,8 @@
     "correctAnswers": [
       "A",
       "B"
-    ]
+    ],
+    "race": "RACE-20.md"
   },
   {
     "question": "8] Select all true statements: \\",
@@ -2991,7 +3134,8 @@
       "B",
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-20.md"
   },
   {
     "question": "1] Missing zero-address check(s) in the contract",
@@ -3016,7 +3160,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-3.md"
   },
   {
     "question": "2] Given that lower indexed/numbered CryptoSAFU NFTs have rarer traits (and are considered more valuable as commented in `_mint`), the implementation of _InSecureumNFT_ is susceptible to the following exploits",
@@ -3043,7 +3188,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-3.md"
   },
   {
     "question": "3] The _getPrice()_ function",
@@ -3069,7 +3215,8 @@
     "correctAnswers": [
       "A",
       "B"
-    ]
+    ],
+    "race": "RACE-3.md"
   },
   {
     "question": "4] _InSecureumNFT_ contract is",
@@ -3095,7 +3242,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-3.md"
   },
   {
     "question": "5] Assuming _InSecureumNFT_ contract is deployed in production (i.e. live for users) on mainnet without any changes to shown code",
@@ -3121,7 +3269,8 @@
     "correctAnswers": [
       "A",
       "B"
-    ]
+    ],
+    "race": "RACE-3.md"
   },
   {
     "question": "6] The function _startSale()_",
@@ -3148,7 +3297,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-3.md"
   },
   {
     "question": "7] The minting of NFTs",
@@ -3175,7 +3325,8 @@
       "B",
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-3.md"
   },
   {
     "question": "8] The NFT sale",
@@ -3202,7 +3353,8 @@
       "A",
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-3.md"
   },
   {
     "question": "1] _InSecureum_ implements",
@@ -3228,7 +3380,8 @@
     "correctAnswers": [
       "A",
       "B"
-    ]
+    ],
+    "race": "RACE-4.md"
   },
   {
     "question": "2] In _InSecureum_",
@@ -3254,7 +3407,8 @@
     "correctAnswers": [
       "A",
       "C"
-    ]
+    ],
+    "race": "RACE-4.md"
   },
   {
     "question": "3] _InSecureum_ _transferFrom()_",
@@ -3281,7 +3435,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-4.md"
   },
   {
     "question": "4] In _InSecureum_",
@@ -3307,7 +3462,8 @@
     "correctAnswers": [
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-4.md"
   },
   {
     "question": "5] _InSecureum_ `_transfer()`",
@@ -3332,7 +3488,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-4.md"
   },
   {
     "question": "6] _InSecureum_ `_mint()`",
@@ -3358,7 +3515,8 @@
     "correctAnswers": [
       "A",
       "C"
-    ]
+    ],
+    "race": "RACE-4.md"
   },
   {
     "question": "7] _InSecureum_ `_burn()`",
@@ -3383,7 +3541,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-4.md"
   },
   {
     "question": "8] _InSecureum_ `_approve()`",
@@ -3409,7 +3568,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-4.md"
   },
   {
     "question": "1] _InSecureum_ _balanceOf()_",
@@ -3434,7 +3594,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-5.md"
   },
   {
     "question": "2] In _InSecureum_, array lengths mismatch check is missing in",
@@ -3462,7 +3623,8 @@
       "B",
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-5.md"
   },
   {
     "question": "3] The security concern(s) with _InSecureum_ `_safeTransferFrom()` is/are",
@@ -3489,7 +3651,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-5.md"
   },
   {
     "question": "4] The security concern(s) with _InSecureum_ `_safeBatchTransferFrom()` is/are",
@@ -3515,7 +3678,8 @@
     "correctAnswers": [
       "A",
       "C"
-    ]
+    ],
+    "race": "RACE-5.md"
   },
   {
     "question": "5] The security concern(s) with _InSecureum_ `_mintBatch()` is/are",
@@ -3542,7 +3706,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-5.md"
   },
   {
     "question": "6] The security concern(s) with _InSecureum_ `_burn()` is/are",
@@ -3567,7 +3732,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-5.md"
   },
   {
     "question": "7] The security concern(s) with _InSecureum_ `_doSafeTransferAcceptanceCheck()` is/are",
@@ -3593,7 +3759,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-5.md"
   },
   {
     "question": "8] The security concern(s) with _InSecureum_ _isContract()_ implementation is/are",
@@ -3618,7 +3785,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-5.md"
   },
   {
     "question": "1] The security concern(s) with _InSecureumLand_ is/are",
@@ -3644,7 +3812,8 @@
     "correctAnswers": [
       "A",
       "C"
-    ]
+    ],
+    "race": "RACE-6.md"
   },
   {
     "question": "2] The security concern(s) with _InSecureumLand_ _setOperator()_ is/are",
@@ -3670,7 +3839,8 @@
     "correctAnswers": [
       "A",
       "B"
-    ]
+    ],
+    "race": "RACE-6.md"
   },
   {
     "question": "3] The security concern(s) with _InSecureumLand_ _mintLands()_ is/are",
@@ -3695,7 +3865,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-6.md"
   },
   {
     "question": "4] Missing threshold check(s) on parameter(s) is/are a concern in",
@@ -3721,7 +3892,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-6.md"
   },
   {
     "question": "5] The security concern(s) with _InSecureumLand_ contributors claim functions is/are",
@@ -3746,7 +3918,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-6.md"
   },
   {
     "question": "6] The security concern(s) with _InSecureumLand_ random number usage is/are",
@@ -3771,7 +3944,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-6.md"
   },
   {
     "question": "7] The documentation/readability concern(s) with _InSecureumLand_ is/are",
@@ -3797,7 +3971,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-6.md"
   },
   {
     "question": "8] Potential gas optimization(s) (after appropriate security considerations) in _InSecureumLand_ is/are",
@@ -3824,7 +3999,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-6.md"
   },
   {
     "question": "1] The mint price of an _InSecureumApe_ is",
@@ -3849,7 +4025,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-7.md"
   },
   {
     "question": "2] The security concern(s) with _InSecureumApe_ access control is/are",
@@ -3877,7 +4054,8 @@
       "B",
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-7.md"
   },
   {
     "question": "3] The security concern(s) with _InSecureumApe_ constructor is/are",
@@ -3904,7 +4082,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-7.md"
   },
   {
     "question": "4] The total number of _InSecureumApe_ that can ever be minted is",
@@ -3929,7 +4108,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-7.md"
   },
   {
     "question": "5] The public minting of _InSecureumApe_",
@@ -3955,7 +4135,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-7.md"
   },
   {
     "question": "6] The security concern(s) with _InSecureumApe_ is/are",
@@ -3981,7 +4162,8 @@
     "correctAnswers": [
       "A",
       "C"
-    ]
+    ],
+    "race": "RACE-7.md"
   },
   {
     "question": "7] The starting index determination",
@@ -4008,7 +4190,8 @@
       "A",
       "B",
       "D"
-    ]
+    ],
+    "race": "RACE-7.md"
   },
   {
     "question": "8] Potential gas optimization(s) in _InSecureumApe_ is/are",
@@ -4035,7 +4218,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-7.md"
   },
   {
     "question": "1] Which of the following is/are true?",
@@ -4063,7 +4247,8 @@
       "B",
       "C",
       "D"
-    ]
+    ],
+    "race": "RACE-8.md"
   },
   {
     "question": "2] _InSecureumERC721_ recognizes the following role(s)",
@@ -4090,7 +4275,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-8.md"
   },
   {
     "question": "3] The security concern(s) addressed explicitly in `_mint` include",
@@ -4117,7 +4303,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-8.md"
   },
   {
     "question": "4] The security concerns in `_burn` include",
@@ -4142,7 +4329,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-8.md"
   },
   {
     "question": "5] The security concern(s) addressed explicitly in `_safeMint` include",
@@ -4168,7 +4356,8 @@
     "correctAnswers": [
       "A",
       "C"
-    ]
+    ],
+    "race": "RACE-8.md"
   },
   {
     "question": "6] Function approve",
@@ -4194,7 +4383,8 @@
     "correctAnswers": [
       "A",
       "C"
-    ]
+    ],
+    "race": "RACE-8.md"
   },
   {
     "question": "7] Function `setApprovalForAll`",
@@ -4219,7 +4409,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-8.md"
   },
   {
     "question": "8] The security concern(s) in `transferFrom` include",
@@ -4246,7 +4437,8 @@
       "A",
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-8.md"
   },
   {
     "question": "1] The function signature is the first 4 bytes of the keccak hash which",
@@ -4273,7 +4465,8 @@
       "A",
       "B",
       "D"
-    ]
+    ],
+    "race": "RACE-9.md"
   },
   {
     "question": "2] The Proxy contract is most similar to a",
@@ -4298,7 +4491,8 @@
     ],
     "correctAnswers": [
       "C"
-    ]
+    ],
+    "race": "RACE-9.md"
   },
   {
     "question": "3] Gas will be saved with the following changes",
@@ -4323,7 +4517,8 @@
     ],
     "correctAnswers": [
       "A"
-    ]
+    ],
+    "race": "RACE-9.md"
   },
   {
     "question": "4] Calling the `increase()` function on the Proxy contract",
@@ -4349,7 +4544,8 @@
     "correctAnswers": [
       "B",
       "C"
-    ]
+    ],
+    "race": "RACE-9.md"
   },
   {
     "question": "5] Calling the `decrease()` function on the Proxy contract",
@@ -4374,7 +4570,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-9.md"
   },
   {
     "question": "6] Due to a storage clash between the Proxy and the Mastercopy contracts",
@@ -4399,7 +4596,8 @@
     ],
     "correctAnswers": [
       "D"
-    ]
+    ],
+    "race": "RACE-9.md"
   },
   {
     "question": "7] The Proxy contract",
@@ -4424,7 +4622,8 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-9.md"
   },
   {
     "question": "8] The `fallback()` function's assembly block",
@@ -4449,6 +4648,7 @@
     ],
     "correctAnswers": [
       "B"
-    ]
+    ],
+    "race": "RACE-9.md"
   }
 ]

@@ -28,9 +28,11 @@ try {
           context: "",
           possibleAnswers: [],
           correctAnswers: [],
+          race: ""
         };
         const lines = section.split("\n");
         for (let i = 0; i < lines.length; i++) {
+          question.race = file;
           const line = lines[i].trim();
           // If there is a note --> global context
           if (note) {

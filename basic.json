@@ -1,0 +1,2118 @@
+[
+  {
+    "question": "1] What is the primary purpose of the Solidity programming language?",
+    "context": "Solidity is a high-level programming language used for developing smart contracts on the Ethereum blockchain. It is specifically designed for creating decentralized applications (DApps) and defining the behavior of smart contracts. Solidity code is executed on the Ethereum Virtual Machine (EVM).",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To create graphical user interfaces (GUI) for web applications."
+      },
+      {
+        "choice": "B",
+        "answer": "To develop smart contracts for blockchain platforms like Ethereum."
+      },
+      {
+        "choice": "C",
+        "answer": "To design centralized databases for enterprise applications."
+      },
+      {
+        "choice": "D",
+        "answer": "To write operating systems for personal computers."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "1] What is Solidity?",
+    "context": "Solidity is a high-level programming language for writing smart contracts on the Ethereum blockchain.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "A cryptocurrency."
+      },
+      {
+        "choice": "B",
+        "answer": "A programming language for smart contracts."
+      },
+      {
+        "choice": "C",
+        "answer": "A blockchain platform."
+      },
+      {
+        "choice": "D",
+        "answer": "A consensus algorithm."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "2] What is a smart contract in Solidity?",
+    "context": "A smart contract is a self-executing contract with the terms of the agreement between buyer and seller being directly programmed into lines of code.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "A legal document."
+      },
+      {
+        "choice": "B",
+        "answer": "A decentralized application (DApp)."
+      },
+      {
+        "choice": "C",
+        "answer": "A software program that automatically executes when certain conditions are met."
+      },
+      {
+        "choice": "D",
+        "answer": "A physical agreement signed by both parties."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "3] What is the primary blockchain platform where Solidity is commonly used?",
+    "context": "Solidity is mainly used for developing smart contracts on this blockchain platform.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Bitcoin."
+      },
+      {
+        "choice": "B",
+        "answer": "Ethereum."
+      },
+      {
+        "choice": "C",
+        "answer": "Ripple."
+      },
+      {
+        "choice": "D",
+        "answer": "Stellar."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "4] Which keyword is used to define a function in Solidity?",
+    "context": "In Solidity, you use this keyword to declare a function within a contract.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "contract"
+      },
+      {
+        "choice": "B",
+        "answer": "function"
+      },
+      {
+        "choice": "C",
+        "answer": "variable"
+      },
+      {
+        "choice": "D",
+        "answer": "modifier"
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "5] What is the main purpose of the 'require' statement in Solidity?",
+    "context": "The 'require' statement is commonly used in Solidity contracts. What is its primary purpose?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To execute a function."
+      },
+      {
+        "choice": "B",
+        "answer": "To transfer cryptocurrency."
+      },
+      {
+        "choice": "C",
+        "answer": "To validate a condition and revert the transaction if it fails."
+      },
+      {
+        "choice": "D",
+        "answer": "To define a modifier."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "6] In Solidity, what is the role of the 'fallback' function in a contract?",
+    "context": "The 'fallback' function is a special function in Solidity. What is its primary role?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To execute a function when the contract is deployed."
+      },
+      {
+        "choice": "B",
+        "answer": "To handle payments and transfers within the contract."
+      },
+      {
+        "choice": "C",
+        "answer": "To revert the entire contract to its initial state."
+      },
+      {
+        "choice": "D",
+        "answer": "To handle transactions with unknown function selectors."
+      }
+    ],
+    "correctAnswers": ["D"]
+  },
+  {
+    "question": "7] Which Ethereum data type is used for storing an Ethereum address in Solidity?",
+    "context": "Ethereum addresses are a fundamental part of Ethereum contracts. What data type is used to store them?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "uint256"
+      },
+      {
+        "choice": "B",
+        "answer": "string"
+      },
+      {
+        "choice": "C",
+        "answer": "address"
+      },
+      {
+        "choice": "D",
+        "answer": "bool"
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "8] What is the purpose of the 'view' and 'pure' keywords when defining functions in Solidity?",
+    "context": "'view' and 'pure' are function modifiers in Solidity. What is their purpose?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "They specify the function's visibility to the outside world."
+      },
+      {
+        "choice": "B",
+        "answer": "They restrict the access to the function to the contract owner."
+      },
+      {
+        "choice": "C",
+        "answer": "They indicate that the function does not modify state variables."
+      },
+      {
+        "choice": "D",
+        "answer": "They define the gas price for executing the function."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "9] What is the 'gas' in the context of Ethereum and Solidity?",
+    "context": "'Gas' is a term commonly used in the Ethereum network and Solidity. What does it refer to?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "A measure of the computational work required to execute a transaction or smart contract."
+      },
+      {
+        "choice": "B",
+        "answer": "The native cryptocurrency of the Ethereum network."
+      },
+      {
+        "choice": "C",
+        "answer": "A function modifier in Solidity."
+      },
+      {
+        "choice": "D",
+        "answer": "The total supply of Ether in circulation."
+      }
+    ],
+    "correctAnswers": ["A"]
+  },
+  {
+    "question": "10] What is the primary purpose of the 'msg.sender' variable in Solidity?",
+    "context": "'msg.sender' is a commonly used variable in Solidity. What is its primary purpose?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To store the contract's address."
+      },
+      {
+        "choice": "B",
+        "answer": "To store the sender's address in a transaction."
+      },
+      {
+        "choice": "C",
+        "answer": "To store the Ethereum network's address."
+      },
+      {
+        "choice": "D",
+        "answer": "To store the gas limit of a transaction."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "11] In Solidity, what is the 'uint' data type used for?",
+    "context": "'uint' is a common data type in Solidity. What is its primary use?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Storing decimal values."
+      },
+      {
+        "choice": "B",
+        "answer": "Storing negative integers."
+      },
+      {
+        "choice": "C",
+        "answer": "Storing positive integers."
+      },
+      {
+        "choice": "D",
+        "answer": "Storing text data."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "12] What is the 'string' data type in Solidity primarily used for?",
+    "context": "Solidity provides a 'string' data type. What is its primary purpose?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Storing numeric values."
+      },
+      {
+        "choice": "B",
+        "answer": "Storing Ethereum addresses."
+      },
+      {
+        "choice": "C",
+        "answer": "Storing text data."
+      },
+      {
+        "choice": "D",
+        "answer": "Storing boolean values."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "13] What is the primary difference between 'int' and 'uint' data types in Solidity?",
+    "context": "Solidity provides 'int' and 'uint' data types. What distinguishes them?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "'int' can store negative and positive integers, while 'uint' can only store positive integers."
+      },
+      {
+        "choice": "B",
+        "answer": "'int' can store text data, while 'uint' can only store numeric values."
+      },
+      {
+        "choice": "C",
+        "answer": "'uint' can store negative and positive integers, while 'int' can only store positive integers."
+      },
+      {
+        "choice": "D",
+        "answer": "'uint' is used for floating-point values, while 'int' is used for whole numbers."
+      }
+    ],
+    "correctAnswers": ["A"]
+  },
+  {
+    "question": "14] What is the 'bool' data type used for in Solidity?",
+    "context": "'bool' is a basic data type in Solidity. What does it store?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Ethereum addresses."
+      },
+      {
+        "choice": "B",
+        "answer": "Text data."
+      },
+      {
+        "choice": "C",
+        "answer": "Boolean values (true or false)."
+      },
+      {
+        "choice": "D",
+        "answer": "Numeric values."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "15] How does Solidity represent Ethereum addresses?",
+    "context": "Ethereum addresses are a crucial part of Solidity smart contracts. How are they represented in Solidity?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "As text strings."
+      },
+      {
+        "choice": "B",
+        "answer": "As boolean values."
+      },
+      {
+        "choice": "C",
+        "answer": "As 'uint' data types."
+      },
+      {
+        "choice": "D",
+        "answer": "As 'address' data types."
+      }
+    ],
+    "correctAnswers": ["D"]
+  },
+  {
+    "question": "16] What is the purpose of the 'bytes' data type in Solidity?",
+    "context": "Solidity includes the 'bytes' data type. What is its primary use?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To store Ethereum addresses."
+      },
+      {
+        "choice": "B",
+        "answer": "To store text data."
+      },
+      {
+        "choice": "C",
+        "answer": "To store boolean values."
+      },
+      {
+        "choice": "D",
+        "answer": "To store numeric values."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "17] Which data type is used in Solidity to represent fixed-point numbers with a specified number of decimal places?",
+    "context": "In Solidity, if you want to represent fixed-point numbers with a specific number of decimal places, which data type is used?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "uint"
+      },
+      {
+        "choice": "B",
+        "answer": "int"
+      },
+      {
+        "choice": "C",
+        "answer": "fixed"
+      },
+      {
+        "choice": "D",
+        "answer": "bytes"
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "18] What is the primary role of the 'mapping' data structure in Solidity?",
+    "context": "Solidity allows the use of 'mapping' data structures. What is their primary purpose?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To store arrays of data."
+      },
+      {
+        "choice": "B",
+        "answer": "To represent decimal numbers."
+      },
+      {
+        "choice": "C",
+        "answer": "To create key-value pairs for efficient data retrieval."
+      },
+      {
+        "choice": "D",
+        "answer": "To define modifiers in contracts."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "19] How does Solidity handle complex data structures like arrays and structs?",
+    "context": "In Solidity, how are complex data structures like arrays and structs handled?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Solidity does not support complex data structures."
+      },
+      {
+        "choice": "B",
+        "answer": "They are stored directly in storage, and you can iterate over them."
+      },
+      {
+        "choice": "C",
+        "answer": "They can only be used as local variables in functions."
+      },
+      {
+        "choice": "D",
+        "answer": "They are managed by a separate database in Solidity."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "20] What is the purpose of the 'memory' keyword when working with data in Solidity?",
+    "context": "Solidity provides the 'memory' keyword for data management. What is its role?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To specify the location of data storage in the Ethereum blockchain."
+      },
+      {
+        "choice": "B",
+        "answer": "To indicate that data should be stored in local memory for the duration of a function call."
+      },
+      {
+        "choice": "C",
+        "answer": "To define gas prices for data operations."
+      },
+      {
+        "choice": "D",
+        "answer": "To specify the type of data (e.g., string or uint)."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "21] What is the 'bytes32' data type commonly used for in Solidity?",
+    "context": "Solidity introduces the 'bytes32' data type. What is its typical use?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To store large strings of text data."
+      },
+      {
+        "choice": "B",
+        "answer": "To represent fixed-point numbers."
+      },
+      {
+        "choice": "C",
+        "answer": "To store Ethereum addresses."
+      },
+      {
+        "choice": "D",
+        "answer": "To store small data or short strings efficiently."
+      }
+    ],
+    "correctAnswers": ["D"]
+  },
+  {
+    "question": "22] How does Solidity handle variable-size arrays?",
+    "context": "In Solidity, when working with arrays, how does the language handle arrays that can grow or shrink in size?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "All arrays in Solidity must have a fixed size."
+      },
+      {
+        "choice": "B",
+        "answer": "Solidity uses 'mapping' data structures for variable-size arrays."
+      },
+      {
+        "choice": "C",
+        "answer": "Solidity allows dynamic arrays that can grow or shrink as needed."
+      },
+      {
+        "choice": "D",
+        "answer": "Variable-size arrays are not supported in Solidity."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "23] What is the 'enum' data type used for in Solidity?",
+    "context": "'enum' is a data type in Solidity. What does it primarily represent?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Fixed-point numbers."
+      },
+      {
+        "choice": "B",
+        "answer": "Arrays of data."
+      },
+      {
+        "choice": "C",
+        "answer": "User-defined types with a finite set of values."
+      },
+      {
+        "choice": "D",
+        "answer": "Ethereum addresses."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "24] What is the 'struct' data type used for in Solidity?",
+    "context": "Solidity provides the 'struct' data type. What is its primary role?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To store Ethereum addresses."
+      },
+      {
+        "choice": "B",
+        "answer": "To represent fixed-point numbers."
+      },
+      {
+        "choice": "C",
+        "answer": "To define complex custom data structures."
+      },
+      {
+        "choice": "D",
+        "answer": "To manage storage allocation."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "25] What is the 'delete' keyword used for in Solidity?",
+    "context": "Solidity includes the 'delete' keyword. What is its primary function?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To remove a contract from the blockchain."
+      },
+      {
+        "choice": "B",
+        "answer": "To erase all data from a contract."
+      },
+      {
+        "choice": "C",
+        "answer": "To clear a storage slot, resetting it to the default value."
+      },
+      {
+        "choice": "D",
+        "answer": "To deallocate gas in a transaction."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "26] What is the purpose of the 'bytes' data type in Solidity?",
+    "context": "Solidity includes the 'bytes' data type. What is its primary use?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To store Ethereum addresses."
+      },
+      {
+        "choice": "B",
+        "answer": "To store text data."
+      },
+      {
+        "choice": "C",
+        "answer": "To store boolean values."
+      },
+      {
+        "choice": "D",
+        "answer": "To store numeric values."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "27] Which data type is used in Solidity to represent fixed-point numbers with a specified number of decimal places?",
+    "context": "In Solidity, if you want to represent fixed-point numbers with a specific number of decimal places, which data type is used?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "uint"
+      },
+      {
+        "choice": "B",
+        "answer": "int"
+      },
+      {
+        "choice": "C",
+        "answer": "fixed"
+      },
+      {
+        "choice": "D",
+        "answer": "bytes"
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "28] What is the primary role of the 'mapping' data structure in Solidity?",
+    "context": "Solidity allows the use of 'mapping' data structures. What is their primary purpose?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To store arrays of data."
+      },
+      {
+        "choice": "B",
+        "answer": "To represent decimal numbers."
+      },
+      {
+        "choice": "C",
+        "answer": "To create key-value pairs for efficient data retrieval."
+      },
+      {
+        "choice": "D",
+        "answer": "To define modifiers in contracts."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "29] How does Solidity handle complex data structures like arrays and structs?",
+    "context": "In Solidity, how are complex data structures like arrays and structs handled?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Solidity does not support complex data structures."
+      },
+      {
+        "choice": "B",
+        "answer": "They are stored directly in storage, and you can iterate over them."
+      },
+      {
+        "choice": "C",
+        "answer": "They can only be used as local variables in functions."
+      },
+      {
+        "choice": "D",
+        "answer": "They are managed by a separate database in Solidity."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "30] What is the purpose of the 'memory' keyword when working with data in Solidity?",
+    "context": "Solidity provides the 'memory' keyword for data management. What is its role?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To specify the location of data storage in the Ethereum blockchain."
+      },
+      {
+        "choice": "B",
+        "answer": "To indicate that data should be stored in local memory for the duration of a function call."
+      },
+      {
+        "choice": "C",
+        "answer": "To define gas prices for data operations."
+      },
+      {
+        "choice": "D",
+        "answer": "To specify the type of data (e.g., string or uint)."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "31] In Solidity, how is the 'bytes32' data type different from 'string'?",
+    "context": "Solidity provides both 'bytes32' and 'string' data types for working with text data. What distinguishes them?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "'bytes32' can store variable-length text, while 'string' is limited to 32 characters."
+      },
+      {
+        "choice": "B",
+        "answer": "'string' is more efficient for storing text data."
+      },
+      {
+        "choice": "C",
+        "answer": "'bytes32' is used for text data, and 'string' is for binary data."
+      },
+      {
+        "choice": "D",
+        "answer": "There is no difference between 'bytes32' and 'string' in Solidity."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "32] What is the 'array' data type used for in Solidity?",
+    "context": "In Solidity, arrays are a fundamental data type. What do they primarily represent?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Arrays store Ethereum addresses."
+      },
+      {
+        "choice": "B",
+        "answer": "Arrays represent complex data structures."
+      },
+      {
+        "choice": "C",
+        "answer": "Arrays hold ordered collections of data of the same type."
+      },
+      {
+        "choice": "D",
+        "answer": "Arrays are used to define functions in contracts."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "33] What is the purpose of the 'delete' keyword when working with arrays in Solidity?",
+    "context": "In Solidity, you can use the 'delete' keyword in the context of arrays. What does it do?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It removes the entire array from storage."
+      },
+      {
+        "choice": "B",
+        "answer": "It erases all elements from an array."
+      },
+      {
+        "choice": "C",
+        "answer": "It clears an individual element of an array."
+      },
+      {
+        "choice": "D",
+        "answer": "It deallocates gas used by the array operations."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "34] What is the 'address' data type used for in Solidity?",
+    "context": "The 'address' data type is frequently used in Solidity. What does it primarily represent?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Addresses of contract creators."
+      },
+      {
+        "choice": "B",
+        "answer": "Memory storage locations."
+      },
+      {
+        "choice": "C",
+        "answer": "Ethereum addresses, both external and contract addresses."
+      },
+      {
+        "choice": "D",
+        "answer": "Binary data."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "35] What does the 'storage' keyword indicate when working with data in Solidity?",
+    "context": "Solidity uses the 'storage' keyword in the context of data management. What does it signify?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "The location of the Ethereum node storing the data."
+      },
+      {
+        "choice": "B",
+        "answer": "That the data is temporarily stored in local memory."
+      },
+      {
+        "choice": "C",
+        "answer": "That the data is stored in the contract's storage and is a permanent state variable."
+      },
+      {
+        "choice": "D",
+        "answer": "The type of data (e.g., string or uint)."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "36] What is the purpose of the 'pragma' statement in a Solidity contract?",
+    "context": "The 'pragma' statement is often used at the beginning of a Solidity contract. What is its primary purpose?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To define the contract's name and visibility."
+      },
+      {
+        "choice": "B",
+        "answer": "To specify the contract's address on the blockchain."
+      },
+      {
+        "choice": "C",
+        "answer": "To specify the compiler version and settings for the contract."
+      },
+      {
+        "choice": "D",
+        "answer": "To declare the contract's state variables."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "37] What does 'SPDX-License-Identifier' refer to in a Solidity contract pragma?",
+    "context": "In the 'pragma' statement of a Solidity contract, 'SPDX-License-Identifier' is often used. What does it signify?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "The address of the contract creator."
+      },
+      {
+        "choice": "B",
+        "answer": "The contract's version number."
+      },
+      {
+        "choice": "C",
+        "answer": "A reference to the license under which the contract's source code is available."
+      },
+      {
+        "choice": "D",
+        "answer": "A unique identifier for the contract on the blockchain."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "38] What is the purpose of the 'contract' keyword in Solidity?",
+    "context": "In Solidity, you use the 'contract' keyword to declare a contract. What is its primary role?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To define a function within the contract."
+      },
+      {
+        "choice": "B",
+        "answer": "To specify the compiler version for the contract."
+      },
+      {
+        "choice": "C",
+        "answer": "To declare the contract's name and visibility."
+      },
+      {
+        "choice": "D",
+        "answer": "To create a new contract on the blockchain."
+      }
+    ],
+    "correctAnswers": ["D"]
+  },
+  {
+    "question": "39] What is the primary purpose of declaring state variables in a Solidity contract?",
+    "context": "State variables are commonly used in Solidity contracts. What do they primarily represent?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Temporary variables used within functions."
+      },
+      {
+        "choice": "B",
+        "answer": "Variables used to store contract balance."
+      },
+      {
+        "choice": "C",
+        "answer": "Variables that define the contract's current state and persist on the blockchain."
+      },
+      {
+        "choice": "D",
+        "answer": "Variables used for local computation."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "40] What is the primary role of the 'import' statement in Solidity contracts?",
+    "context": "The 'import' statement is commonly used in Solidity contracts. What is its primary purpose?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To create new contracts."
+      },
+      {
+        "choice": "B",
+        "answer": "To import external libraries and contracts."
+      },
+      {
+        "choice": "C",
+        "answer": "To define function modifiers."
+      },
+      {
+        "choice": "D",
+        "answer": "To specify the contract's version."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "41] In Solidity, what is the primary difference between 'internal' and 'private' function visibility?",
+    "context": "Solidity allows you to specify function visibility using 'internal' and 'private' modifiers. What distinguishes these two?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "'Internal' functions can be called from other contracts, while 'private' functions can only be accessed within the same contract."
+      },
+      {
+        "choice": "B",
+        "answer": "'Internal' functions can only be called within the same contract, while 'private' functions are accessible from any contract."
+      },
+      {
+        "choice": "C",
+        "answer": "There is no difference between 'internal' and 'private' in terms of function visibility."
+      },
+      {
+        "choice": "D",
+        "answer": "'Internal' functions are used for getter functions, and 'private' functions are used for setter functions."
+      }
+    ],
+    "correctAnswers": ["A"]
+  },
+  {
+    "question": "42] What is the primary role of 'internal' functions in a Solidity contract?",
+    "context": "In Solidity, 'internal' functions are often used. What is their primary function?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To specify the contract's version."
+      },
+      {
+        "choice": "B",
+        "answer": "To declare contract state variables."
+      },
+      {
+        "choice": "C",
+        "answer": "To create a contract constructor."
+      },
+      {
+        "choice": "D",
+        "answer": "To define functions that can be called by derived contracts."
+      }
+    ],
+    "correctAnswers": ["D"]
+  },
+  {
+    "question": "43] What is the primary role of 'private' functions in a Solidity contract?",
+    "context": "In Solidity, 'private' functions are commonly used. What is their primary function?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To declare contract state variables."
+      },
+      {
+        "choice": "B",
+        "answer": "To define functions that can be called from any contract."
+      },
+      {
+        "choice": "C",
+        "answer": "To create new contracts on the blockchain."
+      },
+      {
+        "choice": "D",
+        "answer": "To specify the compiler version for the contract."
+      }
+    ],
+    "correctAnswers": ["A"]
+  },
+  {
+    "question": "44] What is the primary difference between 'pure' and 'view' functions in Solidity?",
+    "context": "Solidity provides the 'pure' and 'view' function modifiers. What sets them apart?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "'Pure' functions can access contract state variables, while 'view' functions cannot."
+      },
+      {
+        "choice": "B",
+        "answer": "'View' functions modify the contract state, while 'pure' functions do not."
+      },
+      {
+        "choice": "C",
+        "answer": "'View' functions can be used to read contract state, while 'pure' functions do not interact with the contract's state at all."
+      },
+      {
+        "choice": "D",
+        "answer": "There is no difference between 'pure' and 'view' functions in terms of function visibility."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "45] When should you use a 'pure' function in a Solidity contract?",
+    "context": "In Solidity, 'pure' functions are used for specific purposes. When should you use them?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To read and query contract state variables."
+      },
+      {
+        "choice": "B",
+        "answer": "To modify contract state variables."
+      },
+      {
+        "choice": "C",
+        "answer": "To perform operations that do not access contract state or external data."
+      },
+      {
+        "choice": "D",
+        "answer": "To send Ether between contracts."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "46] What is the primary use of 'view' functions in a Solidity contract?",
+    "context": "In Solidity, 'view' functions are commonly used. What is their primary purpose?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To modify the contract's state variables."
+      },
+      {
+        "choice": "B",
+        "answer": "To read and query contract state variables without modifying them."
+      },
+      {
+        "choice": "C",
+        "answer": "To send Ether to other contracts."
+      },
+      {
+        "choice": "D",
+        "answer": "To create new contracts on the blockchain."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "47] In a Solidity contract, which function modifier allows a function to be called only within the same contract or derived contracts?",
+    "context": "Solidity provides function modifiers to control access to functions. Which modifier restricts a function to be called within the same contract or derived contracts?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "public"
+      },
+      {
+        "choice": "B",
+        "answer": "internal"
+      },
+      {
+        "choice": "C",
+        "answer": "external"
+      },
+      {
+        "choice": "D",
+        "answer": "private"
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "48] What is the main difference between 'internal' and 'private' function visibility in Solidity?",
+    "context": "Solidity allows you to specify function visibility using 'internal' and 'private' modifiers. What distinguishes these two?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "'Internal' functions can be called from other contracts, while 'private' functions can only be accessed within the same contract."
+      },
+      {
+        "choice": "B",
+        "answer": "'Internal' functions can only be called within the same contract, while 'private' functions are accessible from any contract."
+      },
+      {
+        "choice": "C",
+        "answer": "There is no difference between 'internal' and 'private' in terms of function visibility."
+      },
+      {
+        "choice": "D",
+        "answer": "'Internal' functions are used for getter functions, and 'private' functions are used for setter functions."
+      }
+    ],
+    "correctAnswers": ["A"]
+  },
+  {
+    "question": "49] When should you use a 'pure' function in a Solidity contract?",
+    "context": "In Solidity, 'pure' functions are used for specific purposes. When should you use them?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To read and query contract state variables."
+      },
+      {
+        "choice": "B",
+        "answer": "To modify contract state variables."
+      },
+      {
+        "choice": "C",
+        "answer": "To perform operations that do not access contract state or external data."
+      },
+      {
+        "choice": "D",
+        "answer": "To send Ether between contracts."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "50] What is the primary role of 'private' functions in a Solidity contract?",
+    "context": "In Solidity, 'private' functions are commonly used. What is their primary function?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To declare contract state variables."
+      },
+      {
+        "choice": "B",
+        "answer": "To define functions that can be called from any contract."
+      },
+      {
+        "choice": "C",
+        "answer": "To create new contracts on the blockchain."
+      },
+      {
+        "choice": "D",
+        "answer": "To specify the compiler version for the contract."
+      }
+    ],
+    "correctAnswers": ["A"]
+  },
+  {
+    "question": "51] What is the primary difference between 'call' and 'staticcall' in Solidity?",
+    "context": "In Solidity, both 'call' and 'staticcall' functions are used to interact with external contracts. What sets them apart?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "'Call' can only be used to read data from external contracts, while 'staticcall' can read and write data."
+      },
+      {
+        "choice": "B",
+        "answer": "'Call' is used for calling functions in the same contract, while 'staticcall' is used for calling functions in external contracts."
+      },
+      {
+        "choice": "C",
+        "answer": "'Call' is less gas-efficient than 'staticcall.'"
+      },
+      {
+        "choice": "D",
+        "answer": "There is no difference between 'call' and 'staticcall' in Solidity."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "52] What is the primary purpose of 'delegatecall' in Solidity?",
+    "context": "'delegatecall' is a commonly used function in Solidity. What is its primary role?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To send Ether between contracts."
+      },
+      {
+        "choice": "B",
+        "answer": "To create new contracts on the blockchain."
+      },
+      {
+        "choice": "C",
+        "answer": "To delegate the execution of a function to another contract while maintaining the context of the calling contract."
+      },
+      {
+        "choice": "D",
+        "answer": "To read data from an external contract."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "53] In Solidity, when is 'staticcall' typically used?",
+    "context": "Solidity provides 'staticcall' as an option for calling functions in external contracts. When is it typically used?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "For calling functions that modify the state of the calling contract."
+      },
+      {
+        "choice": "B",
+        "answer": "For read-only operations that do not change contract state."
+      },
+      {
+        "choice": "C",
+        "answer": "For creating new contracts on the blockchain."
+      },
+      {
+        "choice": "D",
+        "answer": "For sending Ether between contracts."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "54] What is the primary purpose of 'call' in Solidity?",
+    "context": "'call' is a commonly used function in Solidity. What is its primary role?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To delegate the execution of a function to another contract while maintaining the context of the calling contract."
+      },
+      {
+        "choice": "B",
+        "answer": "To send Ether between contracts."
+      },
+      {
+        "choice": "C",
+        "answer": "To create new contracts on the blockchain."
+      },
+      {
+        "choice": "D",
+        "answer": "To interact with external contracts, including reading and writing data."
+      }
+    ],
+    "correctAnswers": ["D"]
+  },
+  {
+    "question": "55] When using 'delegatecall' in Solidity, what is the significance of maintaining the context of the calling contract?",
+    "context": "In 'delegatecall' in Solidity, it's important to maintain the context of the calling contract. What does this signify?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It means that the delegate contract takes over the state of the calling contract."
+      },
+      {
+        "choice": "B",
+        "answer": "It allows the delegate contract to modify the state of the calling contract."
+      },
+      {
+        "choice": "C",
+        "answer": "It ensures that variables and state within the delegate contract do not affect the calling contract."
+      },
+      {
+        "choice": "D",
+        "answer": "It does not have any specific meaning in the context of 'delegatecall'."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "56] What is the primary difference between 'call' and 'staticcall' in Solidity?",
+    "context": "In Solidity, both 'call' and 'staticcall' functions are used to interact with external contracts. What sets them apart?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "'Call' is used for calling functions in external contracts, while 'staticcall' is used for calling functions in the same contract."
+      },
+      {
+        "choice": "B",
+        "answer": "'Call' is used for state-altering operations, while 'staticcall' is used for read-only operations."
+      },
+      {
+        "choice": "C",
+        "answer": "'Call' is less gas-efficient than 'staticcall.'"
+      },
+      {
+        "choice": "D",
+        "answer": "There is no difference between 'call' and 'staticcall' in Solidity."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "57] In a Solidity contract, what is the primary purpose of 'delegatecall'?",
+    "context": "'delegatecall' is a commonly used function in Solidity. What is its primary role?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To send Ether between contracts."
+      },
+      {
+        "choice": "B",
+        "answer": "To create new contracts on the blockchain."
+      },
+      {
+        "choice": "C",
+        "answer": "To delegate the execution of a function to another contract while maintaining the context of the calling contract."
+      },
+      {
+        "choice": "D",
+        "answer": "To modify the contract's state variables."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "58] When is 'staticcall' typically used in Solidity?",
+    "context": "Solidity provides 'staticcall' as an option for calling functions in external contracts. When is it typically used?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "For calling functions that modify the state of the calling contract."
+      },
+      {
+        "choice": "B",
+        "answer": "For read-only operations that do not change contract state."
+      },
+      {
+        "choice": "C",
+        "answer": "For creating new contracts on the blockchain."
+      },
+      {
+        "choice": "D",
+        "answer": "For sending Ether between contracts."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "59] What is the primary purpose of 'call' in Solidity?",
+    "context": "'call' is a commonly used function in Solidity. What is its primary role?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To delegate the execution of a function to another contract while maintaining the context of the calling contract."
+      },
+      {
+        "choice": "B",
+        "answer": "To send Ether between contracts."
+      },
+      {
+        "choice": "C",
+        "answer": "To create new contracts on the blockchain."
+      },
+      {
+        "choice": "D",
+        "answer": "To interact with external contracts, including reading and writing data."
+      }
+    ],
+    "correctAnswers": ["D"]
+  },
+  {
+    "question": "60] What happens to the context of a calling contract when using 'delegatecall' in Solidity?",
+    "context": "When 'delegatecall' is used in Solidity, what happens to the context of the calling contract?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "The delegate contract takes over the state of the calling contract."
+      },
+      {
+        "choice": "B",
+        "answer": "It allows the delegate contract to modify the state of the calling contract."
+      },
+      {
+        "choice": "C",
+        "answer": "Variables and state within the delegate contract do not affect the calling contract."
+      },
+      {
+        "choice": "D",
+        "answer": "The context remains unchanged, and the delegate contract is unable to execute any operations."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "61] What is the Ethereum Virtual Machine (EVM) in the context of Ethereum?",
+    "context": "The Ethereum Virtual Machine (EVM) plays a crucial role in the Ethereum ecosystem. What is the EVM?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "A physical device used to mine Ethereum."
+      },
+      {
+        "choice": "B",
+        "answer": "A software-based, decentralized, and Turing-complete virtual machine that executes smart contracts on the Ethereum network."
+      },
+      {
+        "choice": "C",
+        "answer": "A hardware device used to store Ethereum tokens."
+      },
+      {
+        "choice": "D",
+        "answer": "A centralized server that maintains the Ethereum blockchain."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "62] What is the role of the Ethereum Virtual Machine (EVM) in the Ethereum network?",
+    "context": "The EVM serves a specific purpose within the Ethereum network. What is its primary role?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To mine new Ethereum tokens."
+      },
+      {
+        "choice": "B",
+        "answer": "To validate transactions and create new blocks on the blockchain."
+      },
+      {
+        "choice": "C",
+        "answer": "To execute and validate smart contracts and decentralized applications (dApps)."
+      },
+      {
+        "choice": "D",
+        "answer": "To facilitate peer-to-peer trading of Ethereum tokens."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "63] What programming language is commonly used to write smart contracts for the Ethereum Virtual Machine (EVM)?",
+    "context": "Developers write smart contracts that run on the EVM using a specific programming language. What is that language?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "JavaScript"
+      },
+      {
+        "choice": "B",
+        "answer": "Python"
+      },
+      {
+        "choice": "C",
+        "answer": "Solidity"
+      },
+      {
+        "choice": "D",
+        "answer": "Java"
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "64] How does the Ethereum Virtual Machine (EVM) ensure consensus across the network?",
+    "context": "Consensus is a critical aspect of blockchain networks. How does the EVM contribute to achieving consensus on the Ethereum network?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It relies on a centralized authority to validate transactions and maintain the blockchain."
+      },
+      {
+        "choice": "B",
+        "answer": "It uses a Proof of Work (PoW) consensus mechanism, where miners compete to solve complex mathematical puzzles to add new blocks."
+      },
+      {
+        "choice": "C",
+        "answer": "It has no role in achieving network consensus; it only executes smart contracts."
+      },
+      {
+        "choice": "D",
+        "answer": "It uses a Proof of Stake (PoS) consensus mechanism, where validators lock up assets to secure the network and create new blocks."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "65] What is gas in the context of the Ethereum Virtual Machine (EVM)?",
+    "context": "Gas is a critical concept in the EVM and Ethereum. What does it represent?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "A virtual currency used to pay for Ethereum transactions."
+      },
+      {
+        "choice": "B",
+        "answer": "The cost of running smart contracts on the EVM, measured in Ether (ETH)."
+      },
+      {
+        "choice": "C",
+        "answer": "A network upgrade for Ethereum."
+      },
+      {
+        "choice": "D",
+        "answer": "A measure of the EVM's computational power."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "66] In the Ethereum Virtual Machine (EVM), what is the purpose of 'gas limit' and 'gas price' in a transaction?",
+    "context": "Gas limit and gas price are important parameters in Ethereum transactions. What roles do they play?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Gas limit defines the maximum computational steps allowed in a transaction, while gas price determines the amount of Ether paid per computational step."
+      },
+      {
+        "choice": "B",
+        "answer": "Gas limit specifies the maximum amount of Ether to be transferred, while gas price determines the transaction's priority in the queue."
+      },
+      {
+        "choice": "C",
+        "answer": "Gas limit and gas price are the same and can be used interchangeably in transactions."
+      },
+      {
+        "choice": "D",
+        "answer": "Gas limit and gas price are irrelevant in Ethereum transactions."
+      }
+    ],
+    "correctAnswers": ["A"]
+  },
+  {
+    "question": "67] What is the relationship between Ethereum gas and the EVM's execution of smart contracts?",
+    "context": "Gas is closely tied to the execution of smart contracts on the EVM. How does it relate to contract execution?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Gas is used to estimate the market value of a smart contract."
+      },
+      {
+        "choice": "B",
+        "answer": "Gas ensures that smart contract execution is free for all Ethereum users."
+      },
+      {
+        "choice": "C",
+        "answer": "Gas is consumed in the process of executing smart contracts to cover the computational resources required."
+      },
+      {
+        "choice": "D",
+        "answer": "Gas is a measure of a smart contract's security and trustworthiness."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "68] What is the primary purpose of the EVM opcode 'SSTORE' in Solidity smart contracts?",
+    "context": "The EVM employs various opcodes to execute instructions in smart contracts. What is the primary purpose of the 'SSTORE' opcode?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To load data from storage."
+      },
+      {
+        "choice": "B",
+        "answer": "To transfer Ether between addresses."
+      },
+      {
+        "choice": "C",
+        "answer": "To modify state variables in storage, often used to update the contract's data."
+      },
+      {
+        "choice": "D",
+        "answer": "To execute a function call in a smart contract."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "69] What role does the Ethereum gas limit play in preventing infinite loops in smart contracts on the EVM?",
+    "context": "In the context of preventing infinite loops in smart contracts, how does the gas limit function?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "The gas limit restricts the total amount of Ether that can be spent in a transaction."
+      },
+      {
+        "choice": "B",
+        "answer": "The gas limit ensures that contracts have an infinite supply of computational resources."
+      },
+      {
+        "choice": "C",
+        "answer": "The gas limit places an upper bound on the number of computational steps a contract can execute, preventing infinite loops."
+      },
+      {
+        "choice": "D",
+        "answer": "The gas limit is unrelated to preventing infinite loops in smart contracts."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "70] How does the Ethereum Virtual Machine (EVM) contribute to the security of the Ethereum network?",
+    "context": "Security is a critical concern in blockchain networks. What role does the EVM play in ensuring the security of the Ethereum network?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "The EVM has no direct role in Ethereum network security."
+      },
+      {
+        "choice": "B",
+        "answer": "The EVM uses advanced encryption algorithms to protect user data."
+      },
+      {
+        "choice": "C",
+        "answer": "The EVM enforces code execution in a deterministic and sandboxed environment, ensuring smart contracts behave as expected."
+      },
+      {
+        "choice": "D",
+        "answer": "The EVM relies on third-party security audits to protect the network."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "71] What is ERC-20 in the context of Ethereum tokens?",
+    "context": "ERC-20 is a widely used standard for Ethereum tokens. What does ERC-20 define?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "A programming language used for creating smart contracts on Ethereum."
+      },
+      {
+        "choice": "B",
+        "answer": "A specification that defines the interface for fungible tokens on the Ethereum blockchain."
+      },
+      {
+        "choice": "C",
+        "answer": "A decentralized exchange for trading Ethereum tokens."
+      },
+      {
+        "choice": "D",
+        "answer": "An Ethereum Improvement Proposal (EIP) for gas fee reduction."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "72] What are the essential functions defined by the ERC-20 standard in Ethereum smart contracts?",
+    "context": "ERC-20 defines a set of standard functions for Ethereum tokens. Which functions are essential according to the standard?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Only the 'balanceOf' function is essential."
+      },
+      {
+        "choice": "B",
+        "answer": "The 'approve,' 'transfer,' and 'transferFrom' functions are essential."
+      },
+      {
+        "choice": "C",
+        "answer": "There are no essential functions in the ERC-20 standard; all functions are optional."
+      },
+      {
+        "choice": "D",
+        "answer": "The 'burn' and 'mint' functions are essential for creating and destroying tokens."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "73] What is the purpose of the 'approve' function in an ERC-20 smart contract?",
+    "context": "The 'approve' function is one of the functions defined by the ERC-20 standard. What is its primary purpose?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To increase the total supply of tokens."
+      },
+      {
+        "choice": "B",
+        "answer": "To transfer tokens between addresses."
+      },
+      {
+        "choice": "C",
+        "answer": "To allow another address to spend tokens on behalf of the token owner."
+      },
+      {
+        "choice": "D",
+        "answer": "To burn tokens and reduce the total supply."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "74] What is the role of the 'transfer' function in an ERC-20 smart contract?",
+    "context": "The 'transfer' function is a fundamental part of ERC-20 tokens. What does it do?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It approves another address to spend tokens on behalf of the token owner."
+      },
+      {
+        "choice": "B",
+        "answer": "It allows token owners to destroy tokens, reducing the total supply."
+      },
+      {
+        "choice": "C",
+        "answer": "It transfers a specified number of tokens from the sender's address to the recipient's address."
+      },
+      {
+        "choice": "D",
+        "answer": "It mints new tokens, increasing the total supply."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "75] In an ERC-20 token smart contract, what is the 'transferFrom' function used for?",
+    "context": "The 'transferFrom' function is another critical part of ERC-20 tokens. What is its primary use?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It is used to destroy tokens and decrease the total supply."
+      },
+      {
+        "choice": "B",
+        "answer": "It approves another address to spend tokens on behalf of the token owner."
+      },
+      {
+        "choice": "C",
+        "answer": "It transfers tokens from the owner's address to a recipient's address with the owner's consent."
+      },
+      {
+        "choice": "D",
+        "answer": "It is used to freeze tokens and prevent them from being moved."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "76] What is the purpose of the 'totalSupply' function in an ERC-20 smart contract?",
+    "context": "The 'totalSupply' function is commonly used in ERC-20 tokens. What information does it provide?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It returns the current price of the token in Ether (ETH)."
+      },
+      {
+        "choice": "B",
+        "answer": "It provides the total number of token holders in the contract."
+      },
+      {
+        "choice": "C",
+        "answer": "It returns the total supply of tokens issued by the contract."
+      },
+      {
+        "choice": "D",
+        "answer": "It is used to confirm the token owner's identity."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "78] What is ERC-721 in the context of Ethereum tokens?",
+    "context": "ERC-721 is a standard for non-fungible tokens on the Ethereum blockchain. What sets ERC-721 apart from ERC-20 tokens?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "ERC-721 tokens are fungible and can be exchanged for other tokens of the same type."
+      },
+      {
+        "choice": "B",
+        "answer": "ERC-721 tokens are not interchangeable and represent unique, distinct assets or collectibles."
+      },
+      {
+        "choice": "C",
+        "answer": "ERC-721 is a proposed standard but not yet implemented in the Ethereum ecosystem."
+      },
+      {
+        "choice": "D",
+        "answer": "ERC-721 tokens can only be owned by the Ethereum network itself."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "79] What is the key characteristic of ERC-721 tokens that makes them unique compared to ERC-20 tokens?",
+    "context": "ERC-721 tokens have a distinguishing feature that sets them apart from other token standards. What is this characteristic?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "ERC-721 tokens are divisible, allowing fractional ownership."
+      },
+      {
+        "choice": "B",
+        "answer": "Each ERC-721 token is unique and distinct, representing a specific asset or collectible."
+      },
+      {
+        "choice": "C",
+        "answer": "ERC-721 tokens are fully interchangeable with other tokens of the same type."
+      },
+      {
+        "choice": "D",
+        "answer": "ERC-721 tokens are always owned by the Ethereum network itself."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "80] In the context of ERC-721 tokens, what is the purpose of the 'balanceOf' function?",
+    "context": "The 'balanceOf' function is a common feature of ERC-721 tokens. What does it provide information about?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "The current price of an ERC-721 token in Ether (ETH)."
+      },
+      {
+        "choice": "B",
+        "answer": "The number of total tokens created in the contract."
+      },
+      {
+        "choice": "C",
+        "answer": "The number of ERC-721 tokens owned by a specific Ethereum address."
+      },
+      {
+        "choice": "D",
+        "answer": "The total supply of ERC-20 tokens in the contract."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "81] What does the 'ownerOf' function provide in an ERC-721 token contract?",
+    "context": "The 'ownerOf' function is used in ERC-721 tokens. What information does it return?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It returns the address of the Ethereum network owner."
+      },
+      {
+        "choice": "B",
+        "answer": "It returns the address of the contract creator."
+      },
+      {
+        "choice": "C",
+        "answer": "It returns the Ethereum address of the owner of a specific ERC-721 token."
+      },
+      {
+        "choice": "D",
+        "answer": "It returns the total supply of ERC-20 tokens in the contract."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "82] What is the main function of the 'approve' and 'getApproved' functions in an ERC-721 token contract?",
+    "context": "The 'approve' and 'getApproved' functions are part of the ERC-721 standard. What are their primary functions?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "The 'approve' function allows token owners to destroy tokens, while 'getApproved' returns the total token supply."
+      },
+      {
+        "choice": "B",
+        "answer": "The 'approve' function is used to grant permission for another address to transfer a specific ERC-721 token, while 'getApproved' returns the approved address for a given token."
+      },
+      {
+        "choice": "C",
+        "answer": "The 'approve' function specifies the token's price, while 'getApproved' returns the Ethereum owner's address."
+      },
+      {
+        "choice": "D",
+        "answer": "The 'approve' and 'getApproved' functions have no specific purpose in ERC-721 contracts."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "83] In the context of ERC-721 tokens, what is the purpose of the 'transferFrom' function?",
+    "context": "The 'transferFrom' function is an essential part of ERC-721 tokens. What is its primary function?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It is used to create new ERC-721 tokens."
+      },
+      {
+        "choice": "B",
+        "answer": "It allows token owners to destroy their tokens."
+      },
+      {
+        "choice": "C",
+        "answer": "It enables the transfer of a specific ERC-721 token from one address to another with the owner's consent."
+      },
+      {
+        "choice": "D",
+        "answer": "It calculates the total supply of ERC-20 tokens in the contract."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "84] What is the primary purpose of a proxy contract in Ethereum?",
+    "context": "Proxy contracts are commonly used in Ethereum. What is their primary role?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To replace the original contract and take over its functionality."
+      },
+      {
+        "choice": "B",
+        "answer": "To create a backup of the original contract."
+      },
+      {
+        "choice": "C",
+        "answer": "To delegate calls to another contract, often allowing for upgradability or controlled changes in functionality."
+      },
+      {
+        "choice": "D",
+        "answer": "To increase the gas cost of contract execution."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "85] What is the difference between an upgradeable proxy and an immutable proxy in Ethereum?",
+    "context": "Proxy contracts can be categorized as upgradeable or immutable. What distinguishes these two types of proxies?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Upgradeable proxies allow for changes in contract logic, while immutable proxies are static and cannot be modified."
+      },
+      {
+        "choice": "B",
+        "answer": "Upgradeable proxies are more gas-efficient than immutable proxies."
+      },
+      {
+        "choice": "C",
+        "answer": "Immutable proxies are the same as standard contracts, while upgradeable proxies have additional features."
+      },
+      {
+        "choice": "D",
+        "answer": "There is no difference between upgradeable and immutable proxies."
+      }
+    ],
+    "correctAnswers": ["A"]
+  },
+  {
+    "question": "86] In the context of proxy contracts, what is a 'delegateCall' and how does it work?",
+    "context": "The 'delegateCall' function is often used in proxy contracts. What is its purpose, and how does it function?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "'delegateCall' is used to replace the proxy contract with a new contract."
+      },
+      {
+        "choice": "B",
+        "answer": "'delegateCall' is a function to transfer Ether between contracts."
+      },
+      {
+        "choice": "C",
+        "answer": "'delegateCall' is a low-level function that executes code in another contract, preserving the context of the calling contract."
+      },
+      {
+        "choice": "D",
+        "answer": "'delegateCall' has no relevance in proxy contracts."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "87] What is the role of 'implementation' in a proxy contract?",
+    "context": "The 'implementation' is an essential concept in proxy contracts. What does it represent?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Implementation is a reserved keyword in Ethereum smart contracts."
+      },
+      {
+        "choice": "B",
+        "answer": "It is a reference to the proxy contract's address."
+      },
+      {
+        "choice": "C",
+        "answer": "Implementation refers to the contract that holds the actual logic, which the proxy delegates calls to."
+      },
+      {
+        "choice": "D",
+        "answer": "Implementation is a measure of the gas cost of a contract."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "88] What is a transparent proxy in Ethereum, and how does it differ from an opaque proxy?",
+    "context": "Transparent proxies and opaque proxies are two variations of proxy contracts. What sets them apart?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Transparent proxies are used for secure, confidential transactions, while opaque proxies are open to public scrutiny."
+      },
+      {
+        "choice": "B",
+        "answer": "Transparent proxies expose the implementation contract's address to the public, while opaque proxies keep it hidden."
+      },
+      {
+        "choice": "C",
+        "answer": "There is no distinction between transparent and opaque proxies in Ethereum."
+      },
+      {
+        "choice": "D",
+        "answer": "Transparent proxies are more expensive in terms of gas cost compared to opaque proxies."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "89] What is the purpose of the 'admin' or 'owner' in a proxy contract, and what role do they play?",
+    "context": "Proxy contracts often have an 'admin' or 'owner' address. What functions do they serve?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "The 'admin' or 'owner' has no specific role in a proxy contract."
+      },
+      {
+        "choice": "B",
+        "answer": "The 'admin' or 'owner' has control over the implementation contract and can upgrade it."
+      },
+      {
+        "choice": "C",
+        "answer": "The 'admin' or 'owner' is responsible for creating new tokens in the contract."
+      },
+      {
+        "choice": "D",
+        "answer": "The 'admin' or 'owner' determines the gas cost of contract execution."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "90] What is the main advantage of using proxy contracts for upgradability in Ethereum smart contracts?",
+    "context": "Proxy contracts are often employed for upgradability in Ethereum. What is their primary advantage in this context?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "Proxy contracts reduce gas costs for transaction execution."
+      },
+      {
+        "choice": "B",
+        "answer": "Proxy contracts allow for seamless and controlled updates of contract logic without affecting the contract's address or users' interactions."
+      },
+      {
+        "choice": "C",
+        "answer": "Proxy contracts are more secure and immune to hacking attacks."
+      },
+      {
+        "choice": "D",
+        "answer": "Proxy contracts eliminate the need for contract upgrades altogether."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "91] What is the role of 'proxyAdmin' in a proxy contract, and how does it differ from the 'admin' or 'owner'?",
+    "context": "Proxy contracts may have a 'proxyAdmin' in addition to the 'admin' or 'owner' address. What is the role of 'proxyAdmin' and how does it differ?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "'proxyAdmin' is the owner of the implementation contract, while 'admin' or 'owner' manages the proxy's functionality."
+      },
+      {
+        "choice": "B",
+        "answer": "'proxyAdmin' has no specific function in a proxy contract."
+      },
+      {
+        "choice": "C",
+        "answer": "'proxyAdmin' and 'admin' or 'owner' have the same roles and responsibilities in the proxy contract."
+      },
+      {
+        "choice": "D",
+        "answer": "'proxyAdmin' is responsible for monitoring the gas costs of contract execution."
+      }
+    ],
+    "correctAnswers": ["A"]
+  },
+  {
+    "question": "92] In an upgradeable proxy contract, what happens when you upgrade the implementation contract to a new version?",
+    "context": "Upgrading the implementation contract is a common practice in upgradeable proxy contracts. What occurs when you upgrade to a new version?",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "The upgrade process is impossible in upgradeable proxy contracts."
+      },
+      {
+        "choice": "B",
+        "answer": "All user data and balances are lost."
+      },
+      {
+        "choice": "C",
+        "answer": "The proxy contract continues to work with the new logic of the upgraded implementation contract, preserving user data and interactions."
+      },
+      {
+        "choice": "D",
+        "answer": "Upgrading the implementation contract results in the proxy contract being destroyed."
+      }
+    ],
+    "correctAnswers": ["C"]
+  }
+]
