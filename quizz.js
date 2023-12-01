@@ -3,6 +3,13 @@ import { confirm, checkbox } from "@inquirer/prompts";
 const advancedQuestions = JSON.parse(readFileSync("data.json", "utf8"));
 const basicQuestions = JSON.parse(readFileSync("basic.json", "utf8"));
 
+const mapping = {
+  "A": 0,
+  "B": 1,
+  "C": 2,
+  "D": 3,
+}
+
 const askQuestion = async (choices) => {
   const answer = await checkbox({
     message:
@@ -20,8 +27,8 @@ const continuePrompt = async () => {
 };
 
 async function promptQuestion(isBasic) {
-  console.log("Welcome to Secureum Races quizz");
   let questionDataSet = isBasic ? advancedQuestions : basicQuestions;
+  const totalQuestions = questionDataSet.length;
 
   const randomIndex = Math.floor(Math.random() * questionDataSet.length);
   const question = questionDataSet[randomIndex];
@@ -31,13 +38,11 @@ async function promptQuestion(isBasic) {
     value: answer.choice,
   }));
   console.log(question.context);
-  console.log("===========================");
-  console.log("===========================");
-  console.log(question.question);
-  console.log("===========================");
-  console.log("===========================");
+  console.log("\x1b[34m===========================");
+  console.log("\x1b[1m\x1b[32m" + question.question);
+  console.log("\x1b[34m===========================");
+  console.log("\x1b[0m");
 
-  console.log("correct:", question.correctAnswers);
   let answer;
   answer = await askQuestion(choices);
   while (!answer || answer.length === 0) {
@@ -50,16 +55,22 @@ async function promptQuestion(isBasic) {
     answer.length === correctAnswers.length;
 
   if (isCorrect) {
-    console.log("Correct!");
+    console.log("\x1b[32mCorrect 🎉")
+    console.log("\x1b[0m")
+
   } else {
-    console.log(
-      "Incorrect. The correct answer is: " + correctAnswers.join(", ")
-    );
+    console.log("\x1b[31mIncorrect. The correct answer is: " + correctAnswers.join(", "));
+    console.log(question.possibleAnswers[mapping[correctAnswers[0]]].answer)
+    console.log("\x1b[0m")
   }
   await continuePrompt();
 }
 
 async function init() {
+  console.log("\x1b[34m===========================");
+  console.log("\x1b[1m\x1b[32m Welcome to");
+  console.log("\x1b[1m\x1b[32m Sol Quizz");
+  console.log("\x1b[34m===========================");
   const play = await confirm({ message: "Do you want to play?" });
 
   if (play) {

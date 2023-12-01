@@ -2114,5 +2114,761 @@
       }
     ],
     "correctAnswers": ["C"]
-  }
+  },
+  {
+    "question": "93] What is a mapping in Solidity, and how is it typically used?",
+    "context": "Mappings are a common data structure in Solidity. What is a mapping, and how is it usually employed in smart contracts?",
+    "possibleAnswers": [
+        {
+            "choice": "A",
+            "answer": "A mapping is a type of array in Solidity used to store collections of data."
+        },
+        {
+            "choice": "B",
+            "answer": "A mapping is a key-value data structure that associates values with unique keys, often used to create data lookups or associations."
+        },
+        {
+            "choice": "C",
+            "answer": "Mappings are a way to group functions in a Solidity contract."
+        },
+        {
+            "choice": "D",
+            "answer": "Mappings are only used for mathematical calculations in Solidity contracts."
+        }
+    ],
+    "correctAnswers": ["B"]
+},
+{
+    "question": "94] In Solidity, can a mapping have a key of type 'address'?",
+    "context": "Mappings in Solidity allow various data types for keys. Can a mapping have a key of type 'address'?",
+    "possibleAnswers": [
+        {
+            "choice": "A",
+            "answer": "No, mappings cannot have 'address' keys."
+        },
+        {
+            "choice": "B",
+            "answer": "Yes, 'address' is a valid key type for mappings."
+        },
+        {
+            "choice": "C",
+            "answer": "Mappings can only have integer keys."
+        },
+        {
+            "choice": "D",
+            "answer": "Mappings can only have 'string' keys."
+        }
+    ],
+    "correctAnswers": ["B"]
+},
+{
+    "question": "95] What is the purpose of an enum in Solidity?",
+    "context": "Enums are a way to define a set of named, distinct values. What is the primary purpose of using enums in Solidity?",
+    "possibleAnswers": [
+        {
+            "choice": "A",
+            "answer": "Enums are used to store complex data structures in Solidity."
+        },
+        {
+            "choice": "B",
+            "answer": "Enums are used to declare global variables in a contract."
+        },
+        {
+            "choice": "C",
+            "answer": "Enums provide a way to create user-defined data types with a limited set of possible values."
+        },
+        {
+            "choice": "D",
+            "answer": "Enums are only used for mathematical operations."
+        }
+    ],
+    "correctAnswers": ["C"]
+},
+{
+    "question": "96] In Solidity, can you modify the values of an enum after it has been defined?",
+    "context": "Enums define a fixed set of values. Can you change or modify these values once an enum has been declared in Solidity?",
+    "possibleAnswers": [
+        {
+            "choice": "A",
+            "answer": "Yes, you can modify enum values after they are defined."
+        },
+        {
+            "choice": "B",
+            "answer": "No, enum values are fixed and cannot be modified once declared."
+        },
+        {
+            "choice": "C",
+            "answer": "Enum values can be modified only if they are not used in any contracts."
+        },
+        {
+            "choice": "D",
+            "answer": "Enum values can be modified with the approval of the Ethereum network's consensus."
+        }
+    ],
+    "correctAnswers": ["B"]
+},
+{
+    "question": "97] How is a mapping typically used to associate values with unique keys in a Solidity contract?",
+    "context": "Mappings are often used to create associations between keys and values. How are mappings used for this purpose?",
+    "possibleAnswers": [
+        {
+            "choice": "A",
+            "answer": "A mapping is used to store a fixed number of key-value pairs, and new keys cannot be added after initialization."
+        },
+        {
+            "choice": "B",
+            "answer": "A mapping allows for dynamic creation of key-value pairs, and values can be retrieved or updated using the keys."
+        },
+        {
+            "choice": "C",
+            "answer": "Mappings are only used for mathematical calculations and are not used for data storage in Solidity contracts."
+        },
+        {
+            "choice": "D",
+            "answer": "Mappings are only used to create associations between contracts, not for keys and values."
+        }
+    ],
+    "correctAnswers": ["B"]
+},
+{
+    "question": "98] What is the purpose of assigning values to the elements of an enum in Solidity?",
+    "context": "Enums can have values assigned to their elements. What is the significance of this in Solidity?",
+    "possibleAnswers": [
+        {
+            "choice": "A",
+            "answer": "Assigning values to enum elements has no impact in Solidity; it is purely for documentation purposes."
+        },
+        {
+            "choice": "B",
+            "answer": "Assigning values to enum elements allows you to define the order and position of each element in the enum."
+        },
+        {
+            "choice": "C",
+            "answer": "Values assigned to enum elements determine their access permissions in a contract."
+        },
+        {
+            "choice": "D",
+            "answer": "Assigning values to enum elements is a security measure to prevent unauthorized changes."
+        }
+    ],
+    "correctAnswers": ["B"]
+},
+{
+    "question": "99] In a Solidity contract, can you have multiple mappings with the same key type?",
+    "context": "Solidity contracts allow you to define multiple mappings. Can you have more than one mapping with the same key type?",
+    "possibleAnswers": [
+        {
+            "choice": "A",
+            "answer": "Yes, you can have multiple mappings with the same key type, and they will not conflict."
+        },
+        {
+            "choice": "B",
+            "answer": "No, Solidity does not allow multiple mappings with the same key type in a contract."
+        },
+        {
+            "choice": "C",
+            "answer": "You can have multiple mappings with the same key type, but you must give them unique names."
+        },
+        {
+            "choice": "D",
+            "answer": "The number of mappings with the same key type depends on the Ethereum network's capacity."
+        }
+    ],
+    "correctAnswers": ["A"]
+},
+{
+    "question": "100] How can you retrieve the value associated with a specific key in a mapping in Solidity?",
+    "context": "In Solidity, what is the typical way to retrieve the value associated with a specific key in a mapping?",
+    "possibleAnswers": [
+        {
+            "choice": "A",
+            "answer": "You cannot retrieve values from mappings; they are meant for one-way data storage."
+        },
+        {
+            "choice": "B",
+            "answer": "You can use the 'get' function to retrieve values from mappings."
+        },
+        {
+            "choice": "C",
+            "answer": "To retrieve a value from a mapping, you use the key as an index."
+        },
+        {
+            "choice": "D",
+            "answer": "Values in a mapping are automatically returned when you provide the key."
+        }
+    ],
+    "correctAnswers": ["C"]
+},{
+  "question": "101] In Solidity, what is the purpose of a modifier?",
+  "context": "Modifiers are a crucial part of Solidity smart contracts. What is the primary purpose of using modifiers?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "Modifiers are used to define custom data types in Solidity."
+      },
+      {
+          "choice": "B",
+          "answer": "Modifiers are used to encapsulate and reuse logic that can be applied to multiple functions in a contract."
+      },
+      {
+          "choice": "C",
+          "answer": "Modifiers are used to specify the gas limit for contract functions."
+      },
+      {
+          "choice": "D",
+          "answer": "Modifiers are only used for mathematical calculations in Solidity contracts."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "102] How can a Solidity function use a modifier?",
+  "context": "Modifiers are typically applied to functions in Solidity contracts. How can a function make use of a modifier?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "Functions automatically inherit modifiers from other functions in the same contract."
+      },
+      {
+          "choice": "B",
+          "answer": "Modifiers are only used for constructor functions in Solidity."
+      },
+      {
+          "choice": "C",
+          "answer": "A modifier is specified before the function definition, using the 'modifier' keyword, and then it is applied to the function using the 'using' keyword."
+      },
+      {
+          "choice": "D",
+          "answer": "A modifier is called directly within the function using the 'modifier' keyword."
+      }
+  ],
+  "correctAnswers": ["C"]
+},
+{
+  "question": "103] What is the primary benefit of using custom modifiers in Solidity contracts?",
+  "context": "Solidity allows you to create custom modifiers. What is the primary advantage of using these custom modifiers?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "Custom modifiers improve the security of a contract by restricting all function calls."
+      },
+      {
+          "choice": "B",
+          "answer": "Custom modifiers allow you to encapsulate complex logic and apply it consistently to multiple functions, improving code readability and maintainability."
+      },
+      {
+          "choice": "C",
+          "answer": "Custom modifiers enable functions to have dynamic parameters based on user input."
+      },
+      {
+          "choice": "D",
+          "answer": "Custom modifiers are only used to create new tokens in Solidity contracts."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "104] In Solidity, what is a custom error and how is it typically used?",
+  "context": "Custom errors are often used in Solidity smart contracts. What is a custom error, and how is it typically employed?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "Custom errors are used to optimize gas costs for function calls."
+      },
+      {
+          "choice": "B",
+          "answer": "Custom errors are exceptions thrown when a contract encounters an issue, and they provide detailed information about the error condition."
+      },
+      {
+          "choice": "C",
+          "answer": "Custom errors are used to create new ERC-20 tokens."
+      },
+      {
+          "choice": "D",
+          "answer": "Custom errors are only used to store data in a contract."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "105] How do you define and throw a custom error in a Solidity contract?",
+  "context": "Custom errors are created and used in Solidity to handle exceptional situations. How do you define and throw a custom error?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "Custom errors are automatically thrown when an issue is encountered in a contract; they do not need to be explicitly defined."
+      },
+      {
+          "choice": "B",
+          "answer": "To define a custom error, you use the 'error' keyword and specify the error message. To throw the error, you use the 'revert' statement with the error message."
+      },
+      {
+          "choice": "C",
+          "answer": "Custom errors are defined using the 'modifier' keyword and thrown using the 'throw' statement."
+      },
+      {
+          "choice": "D",
+          "answer": "Custom errors can only be defined in the contract constructor."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "106] What is the primary use of custom errors in Solidity contracts?",
+  "context": "Custom errors have various applications in Solidity. What is their primary use?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "Custom errors are used for declaring global variables."
+      },
+      {
+          "choice": "B",
+          "answer": "The primary use of custom errors is to provide descriptive error messages when an exception occurs, aiding in debugging and user feedback."
+      },
+      {
+          "choice": "C",
+          "answer": "Custom errors are used for mathematical calculations within a contract."
+      },
+      {
+          "choice": "D",
+          "answer": "Custom errors are used to create new tokens in a contract."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "107] When a custom error is thrown in a Solidity contract, what happens to the contract's state?",
+  "context": "When a custom error is encountered and thrown in a Solidity contract, how does it affect the contract's state?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "The contract's state remains unchanged when a custom error is thrown."
+      },
+      {
+          "choice": "B",
+          "answer": "The contract's state is rolled back to the state it was in before the function call that triggered the error."
+      },
+      {
+          "choice": "C",
+          "answer": "The contract's state is permanently altered and cannot be reverted after a custom error is thrown."
+      },
+      {
+          "choice": "D",
+          "answer": "The contract's state becomes inaccessible after a custom error is thrown."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "108] In Solidity, can a modifier be used to handle custom errors?",
+  "context": "Modifiers and custom errors are both tools used in Solidity contracts. Can a modifier be used to handle custom errors?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "Yes, a modifier can be used to define and handle custom errors in a contract."
+      },
+      {
+          "choice": "B",
+          "answer": "No, modifiers and custom errors are separate concepts and cannot be combined in Solidity."
+      },
+      {
+          "choice": "C",
+          "answer": "Custom errors are used to define modifiers, not the other way around."
+      },
+      {
+          "choice": "D",
+          "answer": "Modifiers are used to create new tokens, but they cannot handle errors."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "109] In Solidity, what is the primary advantage of using custom errors over plain 'revert' statements?",
+  "context": "Custom errors and 'revert' statements can both be used to handle errors in Solidity contracts. What is the primary benefit of using custom errors?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "Custom errors are more gas-efficient than 'revert' statements."
+      },
+      {
+          "choice": "B",
+          "answer": "Custom errors provide a way to include detailed error messages, aiding in debugging and user feedback, while 'revert' statements provide generic errors."
+      },
+      {
+          "choice": "C",
+          "answer": "There is no difference between custom errors and 'revert' statements; they serve the same purpose."
+      },
+      {
+          "choice": "D",
+          "answer": "Custom errors are only used for creating new tokens in Solidity contracts."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "110] What is the behavior of a Solidity contract when a 'revert' statement is encountered?",
+  "context": "The 'revert' statement is commonly used to handle errors in Solidity contracts. What happens when a 'revert' statement is executed?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "A 'revert' statement has no impact on a contract's state or execution; it is ignored by the Ethereum network."
+      },
+      {
+          "choice": "B",
+          "answer": "The contract's state is rolled back to the state it was in before the function call that triggered the 'revert' statement."
+      },
+      {
+          "choice": "C",
+          "answer": "The contract's state is permanently altered and cannot be reverted after a 'revert' statement is executed."
+      },
+      {
+          "choice": "D",
+          "answer": "A 'revert' statement results in the destruction of the contract."
+      }
+  ],
+  "correctAnswers": ["B"]
+}, {
+  "question": "111] In Solidity, what is the primary purpose of an 'if' statement?",
+  "context": "The 'if' statement is a fundamental control structure in Solidity. What is its primary purpose?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "The 'if' statement is used to declare variables in a contract."
+      },
+      {
+          "choice": "B",
+          "answer": "The primary purpose of the 'if' statement is to conditionally execute a block of code based on a specified condition."
+      },
+      {
+          "choice": "C",
+          "answer": "The 'if' statement is used to define custom errors in Solidity contracts."
+      },
+      {
+          "choice": "D",
+          "answer": "The 'if' statement is used for mathematical calculations and data storage."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "112] What does the 'else' statement do in a Solidity 'if'/'else' construct?",
+  "context": "In Solidity, 'if' statements are often used with 'else' clauses. What is the purpose of the 'else' statement in this context?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "The 'else' statement is used to create new tokens in a contract."
+      },
+      {
+          "choice": "B",
+          "answer": "The 'else' statement provides an alternative block of code to execute when the 'if' condition is not met."
+      },
+      {
+          "choice": "C",
+          "answer": "The 'else' statement is used to define custom errors in Solidity contracts."
+      },
+      {
+          "choice": "D",
+          "answer": "The 'else' statement has no specific role in Solidity 'if'/'else' constructs."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "113] What is the primary use of a 'for' loop in Solidity?",
+  "context": "The 'for' loop is a common control structure in Solidity. What is its primary use?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "The 'for' loop is used to define custom errors in Solidity contracts."
+      },
+      {
+          "choice": "B",
+          "answer": "The primary purpose of the 'for' loop is to repeatedly execute a block of code a specified number of times."
+      },
+      {
+          "choice": "C",
+          "answer": "The 'for' loop is used to create new tokens in a contract."
+      },
+      {
+          "choice": "D",
+          "answer": "The 'for' loop is used to declare and initialize variables in a contract."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "114] In Solidity, how is a 'while' loop different from a 'for' loop?",
+  "context": "Solidity supports both 'while' and 'for' loops. What distinguishes a 'while' loop from a 'for' loop?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "A 'while' loop and a 'for' loop have the same structure and behavior in Solidity."
+      },
+      {
+          "choice": "B",
+          "answer": "A 'while' loop is used for mathematical calculations, while a 'for' loop is used for data storage."
+      },
+      {
+          "choice": "C",
+          "answer": "A 'while' loop is used when the number of iterations is known in advance, while a 'for' loop is used when the number of iterations is dynamic or based on a condition."
+      },
+      {
+          "choice": "D",
+          "answer": "A 'for' loop is used to define custom errors, while a 'while' loop is used to create new tokens."
+      }
+  ],
+  "correctAnswers": ["C"]
+},
+{
+  "question": "115] In Solidity, what is the role of the 'break' statement in a loop?",
+  "context": "The 'break' statement is often used in loops. What purpose does it serve in a loop in Solidity?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "The 'break' statement is used to define custom errors in Solidity contracts."
+      },
+      {
+          "choice": "B",
+          "answer": "The 'break' statement is used to exit the loop prematurely, immediately ending the loop's execution."
+      },
+      {
+          "choice": "C",
+          "answer": "The 'break' statement is used to create new tokens in a contract."
+      },
+      {
+          "choice": "D",
+          "answer": "The 'break' statement increases the gas cost of loop execution."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "116] What is the primary role of the 'continue' statement in a loop in Solidity?",
+  "context": "The 'continue' statement is a common construct in loops. What is its primary function in a loop in Solidity?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "The 'continue' statement is used to define custom errors in Solidity contracts."
+      },
+      {
+          "choice": "B",
+          "answer": "The 'continue' statement is used to skip the current iteration of the loop and proceed to the next one."
+      },
+      {
+          "choice": "C",
+          "answer": "The 'continue' statement is used to create new tokens in a contract."
+      },
+      {
+          "choice": "D",
+          "answer": "The 'continue' statement causes the loop to terminate immediately."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "117] In Solidity, what happens when a 'return' statement is encountered within a loop?",
+  "context": "The 'return' statement is used in functions and can also be used within loops. What occurs when a 'return' statement is encountered within a loop?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "A 'return' statement within a loop has no impact on the loop; the loop continues executing."
+      },
+      {
+          "choice": "B",
+          "answer": "When a 'return' statement is encountered within a loop, the loop is terminated, and the function exits immediately."
+      },
+      {
+          "choice": "C",
+          "answer": "A 'return' statement in a loop increases the gas cost of loop execution."
+      },
+      {
+          "choice": "D",
+          "answer": "The 'return' statement causes an infinite loop with no way to exit."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "118] What is the purpose of the 'do-while' loop in Solidity?",
+  "context": "The 'do-while' loop is another type of loop in Solidity. What is its primary purpose?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "The 'do-while' loop is used to define custom errors in Solidity contracts."
+      },
+      {
+          "choice": "B",
+          "answer": "The primary purpose of the 'do-while' loop is to execute a block of code at least once and then repeat the execution based on a specified condition."
+      },
+      {
+          "choice": "C",
+          "answer": "The 'do-while' loop is used for mathematical calculations and data storage."
+      },
+      {
+          "choice": "D",
+          "answer": "The 'do-while' loop is used to create new tokens in a contract."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "119] In Solidity, can you nest loops (place one loop inside another)?",
+  "context": "Loops can be used together in Solidity. Can you nest loops, meaning placing one loop inside another?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "No, Solidity does not allow nesting of loops."
+      },
+      {
+          "choice": "B",
+          "answer": "Yes, you can nest loops by placing one loop inside another to create complex iteration patterns."
+      },
+      {
+          "choice": "C",
+          "answer": "Nesting loops is only allowed for 'for' loops, not for 'while' or 'do-while' loops."
+      },
+      {
+          "choice": "D",
+          "answer": "Nesting loops is only allowed for 'do-while' loops, not for 'for' or 'while' loops."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "120] What is the primary difference between a 'for' loop and a 'while' loop in Solidity?",
+  "context": "Solidity supports both 'for' and 'while' loops. What is the primary distinction between these two types of loops?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "The 'for' loop is used for mathematical calculations, while the 'while' loop is used for data storage."
+      },
+      {
+          "choice": "B",
+          "answer": "The primary difference is that 'for' loops are controlled by a counter variable and have a fixed number of iterations, while 'while' loops are based on a condition and have a dynamic number of iterations."
+      },
+      {
+          "choice": "C",
+          "answer": "The 'for' loop can only be used inside a function, while the 'while' loop can be used anywhere in a contract."
+      },
+      {
+          "choice": "D",
+          "answer": "There is no difference between 'for' and 'while' loops in Solidity; they serve the same purpose."
+      }
+  ],
+  "correctAnswers": ["B"]
+},{
+  "question": "121] What is inheritance in the context of Solidity contracts?",
+  "context": "Inheritance is a fundamental concept in Solidity. What does inheritance mean in the context of Solidity contracts?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "Inheritance refers to the process of passing values from one contract to another in Solidity."
+      },
+      {
+          "choice": "B",
+          "answer": "Inheritance is a mechanism that allows a new contract to inherit the properties and behaviors of an existing contract."
+      },
+      {
+          "choice": "C",
+          "answer": "Inheritance is a way to define custom errors in Solidity contracts."
+      },
+      {
+          "choice": "D",
+          "answer": "Inheritance is only used for mathematical calculations within a contract."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "122] What is a 'base' contract in Solidity, and how is it typically used in inheritance?",
+  "context": "Base contracts play a key role in inheritance in Solidity. What is a 'base' contract, and how is it usually used in the context of inheritance?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "A 'base' contract is a contract that cannot be inherited by other contracts."
+      },
+      {
+          "choice": "B",
+          "answer": "A 'base' contract is a contract that provides common properties and functions, serving as a blueprint for other contracts to inherit from and build upon."
+      },
+      {
+          "choice": "C",
+          "answer": "A 'base' contract is used to create custom errors in Solidity contracts."
+      },
+      {
+          "choice": "D",
+          "answer": "A 'base' contract is a contract that can only inherit from other contracts but cannot be inherited by new contracts."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "123] What is the keyword used to specify inheritance in a Solidity contract?",
+  "context": "Inheritance is declared using a specific keyword in Solidity. What is the keyword used to specify inheritance in a contract?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "The keyword 'extend' is used to specify inheritance in Solidity."
+      },
+      {
+          "choice": "B",
+          "answer": "The keyword 'base' is used to declare inheritance in Solidity."
+      },
+      {
+          "choice": "C",
+          "answer": "The keyword 'include' is used to denote inheritance in Solidity."
+      },
+      {
+          "choice": "D",
+          "answer": "The keyword 'is' is used to specify inheritance in Solidity."
+      }
+  ],
+  "correctAnswers": ["D"]
+},
+{
+  "question": "124] In a Solidity contract that uses inheritance, how do derived contracts access functions and state variables from the base contract?",
+  "context": "Inheritance allows derived contracts to inherit properties and behaviors from a base contract. How can derived contracts access functions and state variables from the base contract?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "Derived contracts cannot access functions or state variables from the base contract; they must redefine them."
+      },
+      {
+          "choice": "B",
+          "answer": "Derived contracts can access functions and state variables from the base contract directly, as if they were defined within the derived contract."
+      },
+      {
+          "choice": "C",
+          "answer": "Functions and state variables from the base contract are automatically copied into the derived contract upon inheritance."
+      },
+      {
+          "choice": "D",
+          "answer": "Derived contracts can only access functions from the base contract but not state variables."
+      }
+  ],
+  "correctAnswers": ["B"]
+},
+{
+  "question": "125] Can a Solidity contract inherit from multiple base contracts, and if so, how is this achieved?",
+  "context": "Solidity allows for single or multiple inheritance. Can a contract inherit from multiple base contracts, and if so, how is this achieved?",
+  "possibleAnswers": [
+      {
+          "choice": "A",
+          "answer": "A contract can inherit from multiple base contracts, and this is achieved by specifying multiple 'base' statements in the contract's code."
+      },
+      {
+          "choice": "B",
+          "answer": "A contract can only inherit from a single base contract, and multiple inheritance is not supported in Solidity."
+      },
+      {
+          "choice": "C",
+          "answer": "Multiple inheritance can only be achieved by using the 'extend' keyword in a contract."
+      },
+      {
+          "choice": "D",
+          "answer": "Contracts can inherit from multiple base contracts, but this requires approval from the Ethereum network's consensus."
+      }
+  ],
+  "correctAnswers": ["A"]
+}
 ]
