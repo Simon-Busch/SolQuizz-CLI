@@ -17,7 +17,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -44,7 +44,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -71,7 +71,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -98,7 +98,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -125,7 +125,7 @@
       },
       {
         "choice": "D",
-        "answer": "*delegate()* does not check for contract existence at *addr*"
+        "answer": "*delegate()* does not check for contract existence at *addr* \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -154,7 +154,7 @@
       },
       {
         "choice": "D",
-        "answer": "All of the above"
+        "answer": "All of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -186,7 +186,7 @@
       },
       {
         "choice": "D",
-        "answer": "Integer overflow"
+        "answer": "Integer overflow \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -213,7 +213,7 @@
       },
       {
         "choice": "D",
-        "answer": "Missing event for critical *emergencyWithdraw()* function"
+        "answer": "Missing event for critical *emergencyWithdraw()* function \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -240,7 +240,7 @@
       },
       {
         "choice": "D",
-        "answer": "Use of strict equality (!=) may break the *MAX_FUND_RAISE* constraint"
+        "answer": "Use of strict equality (!=) may break the *MAX_FUND_RAISE* constraint \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -266,7 +266,7 @@
       },
       {
         "choice": "D",
-        "answer": "Fail always"
+        "answer": "Fail always \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -292,7 +292,7 @@
       },
       {
         "choice": "D",
-        "answer": "Missing event for critical function"
+        "answer": "Missing event for critical function \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -321,7 +321,7 @@
       },
       {
         "choice": "D",
-        "answer": "Transaction order dependence risk from *admin* front-running with pool address change"
+        "answer": "Transaction order dependence risk from *admin* front-running with pool address change \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -349,7 +349,7 @@
       },
       {
         "choice": "D",
-        "answer": "All the above"
+        "answer": "All the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -376,7 +376,7 @@
       },
       {
         "choice": "D",
-        "answer": "Potential reverts due to mismatched lengths of *recipients* and *amounts* arrays"
+        "answer": "Potential reverts due to mismatched lengths of *recipients* and *amounts* arrays \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -404,7 +404,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -430,7 +430,7 @@
       },
       {
         "choice": "D",
-        "answer": "Missing zero-address check for *ecrecover* return value may allow invalid signatures"
+        "answer": "Missing zero-address check for *ecrecover* return value may allow invalid signatures \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -459,7 +459,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -485,7 +485,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -511,7 +511,7 @@
       },
       {
         "choice": "D",
-        "answer": "_safeAdd()_ can be public"
+        "answer": "_safeAdd()_ can be public \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -538,7 +538,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -564,7 +564,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -590,7 +590,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -616,7 +616,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -642,7 +642,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -669,7 +669,7 @@
       },
       {
         "choice": "D",
-        "answer": "The function accesses memory which it should not"
+        "answer": "The function accesses memory which it should not \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -697,7 +697,7 @@
       },
       {
         "choice": "D",
-        "answer": "It should use `uint256` instead of `uint`"
+        "answer": "It should use `uint256` instead of `uint` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -724,7 +724,7 @@
       },
       {
         "choice": "D",
-        "answer": "It could have used `x.nonce++`"
+        "answer": "It could have used `x.nonce++` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -751,7 +751,7 @@
       },
       {
         "choice": "D",
-        "answer": "``memory`` can be changed to `storage` without any other changes"
+        "answer": "``memory`` can be changed to `storage` without any other changes \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -778,7 +778,7 @@
       },
       {
         "choice": "D",
-        "answer": "The function never reverts with ``ZeroAmount()``"
+        "answer": "The function never reverts with ``ZeroAmount()`` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -805,7 +805,7 @@
       },
       {
         "choice": "D",
-        "answer": "There are more efficient ways to handle the require"
+        "answer": "There are more efficient ways to handle the require \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -832,7 +832,7 @@
       },
       {
         "choice": "D",
-        "answer": "The owner can be changed"
+        "answer": "The owner can be changed \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -859,7 +859,7 @@
       },
       {
         "choice": "D",
-        "answer": "The ``emit`` is done wrong"
+        "answer": "The ``emit`` is done wrong \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -886,7 +886,7 @@
       },
       {
         "choice": "D",
-        "answer": "Remove if/else block and add `_userBalances[msg.sender] -= amount` before `safeTransferFrom`"
+        "answer": "Remove if/else block and add `_userBalances[msg.sender] -= amount` before `safeTransferFrom` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -914,7 +914,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -940,7 +940,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -967,7 +967,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -994,7 +994,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1021,7 +1021,7 @@
       },
       {
         "choice": "D",
-        "answer": "`Deposit` event is emitted with incorrect user"
+        "answer": "`Deposit` event is emitted with incorrect user \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1048,7 +1048,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1075,7 +1075,7 @@
       },
       {
         "choice": "D",
-        "answer": "With the current code it's not possible for anyone to have `MIGRATOR_ROLE` permission"
+        "answer": "With the current code it's not possible for anyone to have `MIGRATOR_ROLE` permission \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1090,19 +1090,19 @@
     "possibleAnswers": [
       {
         "choice": "A",
-        "answer": "Can be drained by re-entering during withdrawal"
+        "answer": "Can be drained by re-entering during withdrawal (B): Can be drained during withdrawal due to an integer underflow\n (C): Allows stealing approved tokens due to a phantom (i.e. missing) function\n (D): None of the above\n \n \n \n"
       },
       {
         "choice": "B",
-        "answer": "Can be drained during withdrawal due to an integer underflow"
+        "answer": "Can be drained during withdrawal due to an integer underflow (C): Allows stealing approved tokens due to a phantom (i.e. missing) function\n (D): None of the above\n \n \n \n"
       },
       {
         "choice": "C",
-        "answer": "Allows stealing approved tokens due to a phantom (i.e. missing) function"
+        "answer": "Allows stealing approved tokens due to a phantom (i.e. missing) function (D): None of the above\n \n \n \n"
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1128,7 +1128,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1142,19 +1142,19 @@
     "possibleAnswers": [
       {
         "choice": "A",
-        "answer": "The deployer of the TokenV2 contract"
+        "answer": "The deployer of the TokenV2 contract (B): The TokenV1 contract\n (C): The TokenV2 contract\n (D): The PermitModule contract\n \n \n \n"
       },
       {
         "choice": "B",
-        "answer": "The TokenV1 contract"
+        "answer": "The TokenV1 contract (C): The TokenV2 contract\n (D): The PermitModule contract\n \n \n \n"
       },
       {
         "choice": "C",
-        "answer": "The TokenV2 contract"
+        "answer": "The TokenV2 contract (D): The PermitModule contract\n \n \n \n"
       },
       {
         "choice": "D",
-        "answer": "The PermitModule contract"
+        "answer": "The PermitModule contract \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1168,19 +1168,19 @@
     "possibleAnswers": [
       {
         "choice": "A",
-        "answer": "Is no longer vulnerable in the `depositWithPermit()` function"
+        "answer": "Is no longer vulnerable in the `depositWithPermit()` function (B): Becomes more vulnerable due to a Double-Entry-Point\n (C): Stops functioning because TokenV1 has been replaced\n (D): None of the above\n \n \n \n"
       },
       {
         "choice": "B",
-        "answer": "Becomes more vulnerable due to a Double-Entry-Point"
+        "answer": "Becomes more vulnerable due to a Double-Entry-Point (C): Stops functioning because TokenV1 has been replaced\n (D): None of the above\n \n \n \n"
       },
       {
         "choice": "C",
-        "answer": "Stops functioning because TokenV1 has been replaced"
+        "answer": "Stops functioning because TokenV1 has been replaced (D): None of the above\n \n \n \n"
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1206,7 +1206,7 @@
       },
       {
         "choice": "D",
-        "answer": "Is vulnerable due to a Double-Entry-Point"
+        "answer": "Is vulnerable due to a Double-Entry-Point \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1221,19 +1221,19 @@
     "possibleAnswers": [
       {
         "choice": "A",
-        "answer": "Acts as a proxy"
+        "answer": "Acts as a proxy (B): Acts as an implementation\n (C): Allows anyone to manipulate TokenV2's balances\n (D): Can be self-destructed by anyone\n \n \n \n"
       },
       {
         "choice": "B",
-        "answer": "Acts as an implementation"
+        "answer": "Acts as an implementation (C): Allows anyone to manipulate TokenV2's balances\n (D): Can be self-destructed by anyone\n \n \n \n"
       },
       {
         "choice": "C",
-        "answer": "Allows anyone to manipulate TokenV2's balances"
+        "answer": "Allows anyone to manipulate TokenV2's balances (D): Can be self-destructed by anyone\n \n \n \n"
       },
       {
         "choice": "D",
-        "answer": "Can be self-destructed by anyone"
+        "answer": "Can be self-destructed by anyone \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1260,7 +1260,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1286,7 +1286,7 @@
       },
       {
         "choice": "D",
-        "answer": "At no times"
+        "answer": "At no times \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1312,7 +1312,7 @@
       },
       {
         "choice": "D",
-        "answer": "The code always reverts"
+        "answer": "The code always reverts \n \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1326,7 +1326,7 @@
     "possibleAnswers": [
       {
         "choice": "A",
-        "answer": "```assembly {"
+        "answer": "```assembly { mstore(0x20, 0x20)\n mstore(0x48, 0x0843616c6c6261636b)\n return(0x20, 0x60)\n }```\\\n"
       },
       {
         "choice": "B",
@@ -1338,7 +1338,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1366,7 +1366,7 @@
       },
       {
         "choice": "D",
-        "answer": "Selector can never be 0x00000000, so the check is useless"
+        "answer": "Selector can never be 0x00000000, so the check is useless \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1392,7 +1392,7 @@
       },
       {
         "choice": "D",
-        "answer": "The called contract may not have the called function selector thus falling through to `fallback` or reverting the transfer"
+        "answer": "The called contract may not have the called function selector thus falling through to `fallback` or reverting the transfer \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1418,7 +1418,7 @@
       },
       {
         "choice": "D",
-        "answer": "Make the call in inline assembly"
+        "answer": "Make the call in inline assembly \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1444,7 +1444,7 @@
       },
       {
         "choice": "D",
-        "answer": "This cannot happen in this contract"
+        "answer": "This cannot happen in this contract \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1470,7 +1470,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1496,7 +1496,7 @@
       },
       {
         "choice": "D",
-        "answer": "You can deposit at any point during the period"
+        "answer": "You can deposit at any point during the period \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1523,7 +1523,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1549,7 +1549,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1575,7 +1575,7 @@
       },
       {
         "choice": "D",
-        "answer": "The liquidator can take the full collateral amount with reentrancy"
+        "answer": "The liquidator can take the full collateral amount with reentrancy \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1601,7 +1601,7 @@
       },
       {
         "choice": "D",
-        "answer": "The liquidated lender can tokenize the extra gas in the callback and make a profit"
+        "answer": "The liquidated lender can tokenize the extra gas in the callback and make a profit \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1627,7 +1627,7 @@
       },
       {
         "choice": "D",
-        "answer": "There is no way to do it"
+        "answer": "There is no way to do it \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1653,7 +1653,7 @@
       },
       {
         "choice": "D",
-        "answer": "Lender B can steal from another lender C, by submitting a malformed signature."
+        "answer": "Lender B can steal from another lender C, by submitting a malformed signature. \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1667,19 +1667,19 @@
     "possibleAnswers": [
       {
         "choice": "A",
-        "answer": "(A):"
+        "answer": "(A): ```\n require (reentrancy_lock == 1);\n reentrancy_lock = 0;\n _;\n reentrancy_lock = 1;\n ```\n"
       },
       {
         "choice": "B",
-        "answer": "(B):"
+        "answer": "(B): ```\n require (reentrancy_lock == 0);\n reentrancy_lock = 1;\n _;\n reentrancy_lock = 0;\n ```\n"
       },
       {
         "choice": "C",
-        "answer": "(C):"
+        "answer": "(C): ```\n require (reentrancy_lock == 1);\n reentrancy_lock = 1;\n _;\n reentrancy_lock = 0;\n ```\n"
       },
       {
         "choice": "D",
-        "answer": "(D):"
+        "answer": "(D): ```\n require (reentrancy_lock == 0);\n reentrancy_lock = 2;\n _;\n reentrancy_lock = 0;\n ```\n \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1706,7 +1706,7 @@
       },
       {
         "choice": "D",
-        "answer": "No one"
+        "answer": "No one \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1729,11 +1729,11 @@
       },
       {
         "choice": "C",
-        "answer": "Only if we add a prior check:\t\\"
+        "answer": "Only if we add a prior check:\t\\ `require(current_eth > amount);` \\\n"
       },
       {
         "choice": "D",
-        "answer": "Only if we add a prior check: \\"
+        "answer": "Only if we add a prior check: \\ `require(current_eth >= amount);`\n \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1759,7 +1759,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1785,7 +1785,7 @@
       },
       {
         "choice": "D",
-        "answer": "Transaction will be reverted"
+        "answer": "Transaction will be reverted \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1811,7 +1811,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1834,7 +1834,7 @@
       },
       {
         "choice": "D",
-        "answer": "No, there is no issue"
+        "answer": "No, there is no issue \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1860,7 +1860,7 @@
       },
       {
         "choice": "D",
-        "answer": "`this.balance >= current_eth` || `token.balanceOf(this)  >= token_balance`"
+        "answer": "`this.balance >= current_eth` || `token.balanceOf(this)  >= token_balance` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1887,7 +1887,7 @@
       },
       {
         "choice": "D",
-        "answer": "The transaction reverts because a user tried to spend more funds than their allowance in `onFlashLoan()`"
+        "answer": "The transaction reverts because a user tried to spend more funds than their allowance in `onFlashLoan()` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1915,7 +1915,7 @@
       },
       {
         "choice": "D",
-        "answer": "t.balanceOf(address(this)) == old(t.balanceOf(address(this))) + fee"
+        "answer": "t.balanceOf(address(this)) == old(t.balanceOf(address(this))) + fee \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1937,7 +1937,7 @@
       },
       {
         "choice": "C",
-        "answer": "ERC1155"
+        "answer": "ERC1155 \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1963,7 +1963,7 @@
       },
       {
         "choice": "D",
-        "answer": "`approve()`"
+        "answer": "`approve()` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -1989,7 +1989,7 @@
       },
       {
         "choice": "D",
-        "answer": "It has no purpose"
+        "answer": "It has no purpose \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2015,7 +2015,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2041,7 +2041,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2067,7 +2067,7 @@
       },
       {
         "choice": "D",
-        "answer": "The token balance of any contract/user other than the `FlashLoan` contract, the caller of the `flashLoan()`, and the “receiver” contract will remain the same as before the call to `flashLoan()`"
+        "answer": "The token balance of any contract/user other than the `FlashLoan` contract, the caller of the `flashLoan()`, and the “receiver” contract will remain the same as before the call to `flashLoan()` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2093,7 +2093,7 @@
       },
       {
         "choice": "D",
-        "answer": "If called internally"
+        "answer": "If called internally \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2120,7 +2120,7 @@
       },
       {
         "choice": "D",
-        "answer": "`totalContributionCap` isn't enforced on an individual level"
+        "answer": "`totalContributionCap` isn't enforced on an individual level \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2146,7 +2146,7 @@
       },
       {
         "choice": "D",
-        "answer": "May revert with \"failed to transfer ETH\""
+        "answer": "May revert with \"failed to transfer ETH\" \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2172,7 +2172,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2198,7 +2198,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2224,7 +2224,7 @@
       },
       {
         "choice": "D",
-        "answer": "Unbounded"
+        "answer": "Unbounded \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2250,7 +2250,7 @@
       },
       {
         "choice": "D",
-        "answer": "`safeDecreaseAllowance(0)` followed by `safeApprove(type(uint256).max)`"
+        "answer": "`safeDecreaseAllowance(0)` followed by `safeApprove(type(uint256).max)` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2278,7 +2278,7 @@
       },
       {
         "choice": "D",
-        "answer": "Use `unchecked` math in `withdraw()`"
+        "answer": "Use `unchecked` math in `withdraw()` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2305,7 +2305,7 @@
       },
       {
         "choice": "D",
-        "answer": "Arithmetic risks"
+        "answer": "Arithmetic risks \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2334,7 +2334,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2361,7 +2361,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2387,7 +2387,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2413,7 +2413,7 @@
       },
       {
         "choice": "D",
-        "answer": "An attacker cannot compromise the `balances` mapping"
+        "answer": "An attacker cannot compromise the `balances` mapping \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2439,7 +2439,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2465,7 +2465,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2491,7 +2491,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2517,7 +2517,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2543,7 +2543,7 @@
       },
       {
         "choice": "D",
-        "answer": "Deployment may silently fail"
+        "answer": "Deployment may silently fail \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2570,7 +2570,7 @@
       },
       {
         "choice": "D",
-        "answer": "Calling a `payable` method in a for-loop"
+        "answer": "Calling a `payable` method in a for-loop \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2596,7 +2596,7 @@
       },
       {
         "choice": "D",
-        "answer": "Reentrancy attacks"
+        "answer": "Reentrancy attacks \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2622,7 +2622,7 @@
       },
       {
         "choice": "D",
-        "answer": "Forcefully reverting transactions"
+        "answer": "Forcefully reverting transactions \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2648,7 +2648,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2675,7 +2675,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2702,7 +2702,7 @@
       },
       {
         "choice": "D",
-        "answer": "Unauthorized burning of ERC721 tokens"
+        "answer": "Unauthorized burning of ERC721 tokens \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2729,7 +2729,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2757,7 +2757,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2783,7 +2783,7 @@
       },
       {
         "choice": "D",
-        "answer": "Neither A nor B"
+        "answer": "Neither A nor B \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2809,7 +2809,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2836,7 +2836,7 @@
       },
       {
         "choice": "D",
-        "answer": "All the above"
+        "answer": "All the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2862,7 +2862,7 @@
       },
       {
         "choice": "D",
-        "answer": "_setMembershipFee()_ for sanity/threshold checks on `_fee`"
+        "answer": "_setMembershipFee()_ for sanity/threshold checks on `_fee` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2889,7 +2889,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2916,7 +2916,7 @@
       },
       {
         "choice": "D",
-        "answer": "Because Solidity language was fixed after the DAO exploit to prevent such exploits"
+        "answer": "Because Solidity language was fixed after the DAO exploit to prevent such exploits \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2942,7 +2942,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2968,7 +2968,7 @@
       },
       {
         "choice": "D",
-        "answer": "The expression is not `memory-safe` assembly in this context"
+        "answer": "The expression is not `memory-safe` assembly in this context \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -2994,7 +2994,7 @@
       },
       {
         "choice": "D",
-        "answer": "The function does not return the correct output for `n = 2**256 - 1`"
+        "answer": "The function does not return the correct output for `n = 2**256 - 1` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3021,7 +3021,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3048,7 +3048,7 @@
       },
       {
         "choice": "D",
-        "answer": "The re-entrancy lock is correctly unlocked in all cases"
+        "answer": "The re-entrancy lock is correctly unlocked in all cases \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3074,7 +3074,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3127,7 +3127,7 @@
       },
       {
         "choice": "D",
-        "answer": "Proxies can be used to prevent contract size limit issues"
+        "answer": "Proxies can be used to prevent contract size limit issues \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3155,7 +3155,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3181,7 +3181,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3209,7 +3209,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3236,7 +3236,7 @@
       },
       {
         "choice": "D",
-        "answer": "Perfectly safe for production"
+        "answer": "Perfectly safe for production \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3263,7 +3263,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3290,7 +3290,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3318,7 +3318,7 @@
       },
       {
         "choice": "D",
-        "answer": "May be optimized to prevent any zero ETH transfers in its refund mechanism"
+        "answer": "May be optimized to prevent any zero ETH transfers in its refund mechanism \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3346,7 +3346,7 @@
       },
       {
         "choice": "D",
-        "answer": "Is missing an event emit in _startSale_"
+        "answer": "Is missing an event emit in _startSale_ \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3374,7 +3374,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3401,7 +3401,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3428,7 +3428,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3456,7 +3456,7 @@
       },
       {
         "choice": "D",
-        "answer": "_decreaseAllowance_ can be optimised with `unchecked{}`"
+        "answer": "_decreaseAllowance_ can be optimised with `unchecked{}` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3483,7 +3483,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3509,7 +3509,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3536,7 +3536,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3562,7 +3562,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3589,7 +3589,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3615,7 +3615,7 @@
       },
       {
         "choice": "D",
-        "answer": "`_burnBatch()`"
+        "answer": "`_burnBatch()` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3644,7 +3644,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3672,7 +3672,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3699,7 +3699,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3727,7 +3727,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3753,7 +3753,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3780,7 +3780,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n ---\n"
       }
     ],
     "correctAnswers": [
@@ -3806,7 +3806,7 @@
       },
       {
         "choice": "D",
-        "answer": "Accidentally sent Ether gets locked in contract"
+        "answer": "Accidentally sent Ether gets locked in contract \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3833,7 +3833,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3860,7 +3860,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3886,7 +3886,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3913,7 +3913,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3939,7 +3939,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3965,7 +3965,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -3992,7 +3992,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4020,7 +4020,7 @@
       },
       {
         "choice": "D",
-        "answer": "0.8 ETH"
+        "answer": "0.8 ETH \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4046,7 +4046,7 @@
       },
       {
         "choice": "D",
-        "answer": "Missing event emits in and time-delayed effects of owner functions"
+        "answer": "Missing event emits in and time-delayed effects of owner functions \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4075,7 +4075,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4103,7 +4103,7 @@
       },
       {
         "choice": "D",
-        "answer": "`type(uint256).max`"
+        "answer": "`type(uint256).max` \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4129,7 +4129,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4156,7 +4156,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4183,7 +4183,7 @@
       },
       {
         "choice": "D",
-        "answer": "Accounts for the fact that EVM only stores previous 256 block hashes"
+        "answer": "Accounts for the fact that EVM only stores previous 256 block hashes \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4211,7 +4211,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4239,7 +4239,7 @@
       },
       {
         "choice": "D",
-        "answer": "NFT operator can transfer all of owner’s NFTs"
+        "answer": "NFT operator can transfer all of owner’s NFTs \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4268,7 +4268,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4296,7 +4296,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4324,7 +4324,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4350,7 +4350,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4377,7 +4377,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4404,7 +4404,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4430,7 +4430,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4458,7 +4458,7 @@
       },
       {
         "choice": "D",
-        "answer": "Is generated only for public and external functions"
+        "answer": "Is generated only for public and external functions \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4486,7 +4486,7 @@
       },
       {
         "choice": "D",
-        "answer": "Metamorphic Proxy"
+        "answer": "Metamorphic Proxy \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4512,7 +4512,7 @@
       },
       {
         "choice": "D",
-        "answer": "Moving the calculation of the `counter()` function's signature hash to a constant"
+        "answer": "Moving the calculation of the `counter()` function's signature hash to a constant \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4538,7 +4538,7 @@
       },
       {
         "choice": "D",
-        "answer": "Delegate-calls to the zero-address"
+        "answer": "Delegate-calls to the zero-address \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4565,7 +4565,7 @@
       },
       {
         "choice": "D",
-        "answer": "Will succeed and return nothing"
+        "answer": "Will succeed and return nothing \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4591,7 +4591,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4617,7 +4617,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [
@@ -4643,7 +4643,7 @@
       },
       {
         "choice": "D",
-        "answer": "None of the above"
+        "answer": "None of the above \n \n \n"
       }
     ],
     "correctAnswers": [

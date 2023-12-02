@@ -19,16 +19,15 @@ const askQuestion = async (choices) => {
   return answer;
 };
 
-const continuePrompt = async () => {
+const continuePrompt = async (isBasic) => {
   const play = await confirm({ message: "Do you want to continue?" });
   if (play) {
-    await promptQuestion();
+    await promptQuestion(isBasic);
   }
 };
 
 async function promptQuestion(isBasic) {
-  let questionDataSet = isBasic ? advancedQuestions : basicQuestions;
-  const totalQuestions = questionDataSet.length;
+  let questionDataSet = isBasic ? basicQuestions: advancedQuestions;
 
   const randomIndex = Math.floor(Math.random() * questionDataSet.length);
   const question = questionDataSet[randomIndex];
@@ -63,7 +62,7 @@ async function promptQuestion(isBasic) {
     console.log(question.possibleAnswers[mapping[correctAnswers[0]]].answer)
     console.log("\x1b[0m")
   }
-  await continuePrompt();
+  await continuePrompt(isBasic);
 }
 
 async function init() {
@@ -81,6 +80,7 @@ async function init() {
         { name: "advanced", value: "advanced" },
       ],
     });
+    console.log(level)
     await promptQuestion(level === "basic");
   }
 }

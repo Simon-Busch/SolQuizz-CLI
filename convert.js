@@ -66,7 +66,16 @@ try {
             line.startsWith("(D):")
           ) {
             const choice = line.match(/\(([^)]+)\)/)[1];
-            const answer = line.replace(/^\([^)]+\):\s/, "");
+            let answer = line.replace(/^\([^)]+\):\s/, "");
+
+            let j = i + 1;
+            while (j < lines.length && !lines[j].startsWith("(")) {
+                if (!lines[j].trim().includes("[Answers]")) {
+                  answer += ' ' + lines[j].trim() + "\n";
+                }
+                j++;
+            }
+
             question.possibleAnswers.push({ choice, answer });
           } else {
             continue;
