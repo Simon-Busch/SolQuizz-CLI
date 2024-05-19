@@ -28,7 +28,7 @@ const continuePrompt = async (isBasic) => {
 
 async function promptQuestion(isBasic) {
   let questionDataSet = isBasic ? basicQuestions: advancedQuestions;
-
+  console.log("isBasic", isBasic)
   const randomIndex = Math.floor(Math.random() * questionDataSet.length);
   const question = questionDataSet[randomIndex];
 
@@ -80,8 +80,7 @@ async function init() {
         { name: "advanced", value: "advanced" },
       ],
     });
-    console.log(level)
-    await promptQuestion(level === "basic");
+    await promptQuestion(level[0] === "basic");
   }
 }
 
