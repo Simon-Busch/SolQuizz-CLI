@@ -2,6 +2,7 @@ import { readFileSync } from "fs";
 import { confirm, checkbox } from "@inquirer/prompts";
 const advancedQuestions = JSON.parse(readFileSync("data.json", "utf8"));
 const basicQuestions = JSON.parse(readFileSync("basic.json", "utf8"));
+const securityQuestions = JSON.parse(readFileSync("security.json", "utf8"));
 
 const mapping = {
   "A": 0,
@@ -26,9 +27,16 @@ const continuePrompt = async (isBasic) => {
   }
 };
 
-async function promptQuestion(isBasic) {
-  let questionDataSet = isBasic ? basicQuestions: advancedQuestions;
-  console.log("isBasic", isBasic)
+async function promptQuestion(level) {
+  let questionDataSet;
+
+  if (level === "basic") {
+    questionDataSet = basicQuestions;
+  } else if (level === "advanced") {
+    questionDataSet = advancedQuestions;
+  } else if (level === "security") {
+    questionDataSet = securityQuestions;
+  }
   const randomIndex = Math.floor(Math.random() * questionDataSet.length);
   const question = questionDataSet[randomIndex];
 
@@ -36,6 +44,8 @@ async function promptQuestion(isBasic) {
     name: `${answer.choice}: ${answer.answer}`,
     value: answer.choice,
   }));
+  console.log("\x1b[34m===========================");
+  console.log("\x1b[0mContext:");
   console.log(question.context);
   console.log("\x1b[34m===========================");
   console.log("\x1b[1m\x1b[32m" + question.question);
@@ -62,7 +72,7 @@ async function promptQuestion(isBasic) {
     console.log(question.possibleAnswers[mapping[correctAnswers[0]]].answer)
     console.log("\x1b[0m")
   }
-  await continuePrompt(isBasic);
+  await continuePrompt(level);
 }
 
 async function init() {
@@ -73,14 +83,19 @@ async function init() {
   const play = await confirm({ message: "Do you want to play?" });
 
   if (play) {
-    const level = await checkbox({
-      message: "Do you want basic or advanced questions ?",
-      choices: [
-        { name: "basic", value: "basic" },
-        { name: "advanced", value: "advanced" },
-      ],
-    });
-    await promptQuestion(level[0] === "basic");
+    try {
+      const level = await checkbox({
+        message: "Do you want basic or advanced questions ?",
+        choices: [
+          { name: "basic", value: "basic" },
+          { name: "advanced", value: "advanced" },
+          { name: "security", value: "security" },
+        ],
+      });
+      await promptQuestion(level[0]);
+    } catch(e) {
+      init();
+    }
   }
 }
 

@@ -1,0 +1,1014 @@
+[
+  {
+    "question": "In Solidity, why is it important to use `require` statements at the beginning of functions?",
+    "context": "The `require` statement is used to validate conditions in smart contract functions.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It helps to check conditions only after the main logic has been executed."
+      },
+      {
+        "choice": "B",
+        "answer": "It allows checking conditions and reverting state changes if conditions are not met."
+      },
+      {
+        "choice": "C",
+        "answer": "It ensures that state changes are permanent even if conditions are not met."
+      },
+      {
+        "choice": "D",
+        "answer": "It reduces the gas cost of the function."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "What is the primary purpose of using the `modifier` keyword in Solidity?",
+    "context": "Modifiers are used to change the behavior of functions in a declarative way.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To add additional parameters to functions."
+      },
+      {
+        "choice": "B",
+        "answer": "To enable the use of assembly code within functions."
+      },
+      {
+        "choice": "C",
+        "answer": "To apply common checks or setup code to multiple functions."
+      },
+      {
+        "choice": "D",
+        "answer": "To define fallback functions."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "Why should the fallback function be used cautiously in Solidity?",
+    "context": "The fallback function is called when a contract receives Ether without any data.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It can increase the contract's gas consumption significantly."
+      },
+      {
+        "choice": "B",
+        "answer": "It can be a vector for reentrancy attacks if not implemented correctly."
+      },
+      {
+        "choice": "C",
+        "answer": "It allows direct access to contract storage."
+      },
+      {
+        "choice": "D",
+        "answer": "It is automatically executed in a loop."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "In the context of smart contract security, what is a reentrancy attack?",
+    "context": "Reentrancy attacks occur when a contract calls an external contract before updating its own state.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "An attack that exploits the block gas limit."
+      },
+      {
+        "choice": "B",
+        "answer": "An attack that occurs when a contract makes an external call before updating its state."
+      },
+      {
+        "choice": "C",
+        "answer": "An attack that occurs when the fallback function is not implemented."
+      },
+      {
+        "choice": "D",
+        "answer": "An attack that exploits uninitialized storage variables."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "How can you prevent reentrancy attacks in Solidity?",
+    "context": "Reentrancy attacks can be prevented using the Checks-Effects-Interactions pattern.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "By using the `delegatecall` function."
+      },
+      {
+        "choice": "B",
+        "answer": "By using `require` statements at the end of functions."
+      },
+      {
+        "choice": "C",
+        "answer": "By updating state variables before making external calls."
+      },
+      {
+        "choice": "D",
+        "answer": "By using assembly code."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "What is the purpose of the `selfdestruct` function in Solidity?",
+    "context": "The `selfdestruct` function removes the contract from the blockchain and sends its funds to a specified address.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To pause the contract."
+      },
+      {
+        "choice": "B",
+        "answer": "To change the owner of the contract."
+      },
+      {
+        "choice": "C",
+        "answer": "To remove the contract from the blockchain and transfer its balance."
+      },
+      {
+        "choice": "D",
+        "answer": "To create a new contract."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "What is a common use of the `delegatecall` function in Solidity?",
+    "context": "The `delegatecall` function is used to call functions from another contract while preserving the current contract's context.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To execute a function without paying gas fees."
+      },
+      {
+        "choice": "B",
+        "answer": "To call functions from another contract and preserve the caller's context."
+      },
+      {
+        "choice": "C",
+        "answer": "To send Ether to another contract."
+      },
+      {
+        "choice": "D",
+        "answer": "To revert transactions."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "Why should you use OpenZeppelin libraries when developing smart contracts?",
+    "context": "OpenZeppelin provides a set of audited smart contract libraries to help developers implement secure contracts.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "They are less gas-efficient than writing your own code."
+      },
+      {
+        "choice": "B",
+        "answer": "They provide ready-made solutions that are less secure."
+      },
+      {
+        "choice": "C",
+        "answer": "They offer well-audited and tested implementations for common patterns."
+      },
+      {
+        "choice": "D",
+        "answer": "They allow writing smart contracts without Solidity."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "What is the purpose of using events in Solidity?",
+    "context": "Events in Solidity are used to log data on the blockchain and can be accessed by external applications.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To directly call other contracts."
+      },
+      {
+        "choice": "B",
+        "answer": "To log data and enable asynchronous interaction with external systems."
+      },
+      {
+        "choice": "C",
+        "answer": "To store data permanently on the blockchain."
+      },
+      {
+        "choice": "D",
+        "answer": "To perform calculations off-chain."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "What is a potential risk of using the `tx.origin` variable in Solidity for authorization?",
+    "context": "Using `tx.origin` can expose contracts to phishing attacks where the origin can be manipulated.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It is less efficient than using `msg.sender`."
+      },
+      {
+        "choice": "B",
+        "answer": "It can be manipulated in phishing attacks."
+      },
+      {
+        "choice": "C",
+        "answer": "It does not work with smart contracts."
+      },
+      {
+        "choice": "D",
+        "answer": "It increases the gas cost of transactions."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "How can you limit the impact of a failed call in Solidity?",
+    "context": "Using the `try/catch` construct can help handle errors gracefully and prevent contract failure.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "By using `require` statements at the end of functions."
+      },
+      {
+        "choice": "B",
+        "answer": "By using the `selfdestruct` function."
+      },
+      {
+        "choice": "C",
+        "answer": "By using the `try/catch` construct."
+      },
+      {
+        "choice": "D",
+        "answer": "By using assembly code."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "Why should you avoid using `now` for time-based functions in Solidity?",
+    "context": "The `now` keyword is an alias for `block.timestamp` which can be manipulated by miners.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It increases the gas cost."
+      },
+      {
+        "choice": "B",
+        "answer": "It can be manipulated by miners to some extent."
+      },
+      {
+        "choice": "C",
+        "answer": "It reduces the security of the contract."
+      },
+      {
+        "choice": "D",
+        "answer": "It is deprecated in newer versions of Solidity."
+      }
+    ],
+    "correctAnswers": ["B", "D"]
+  },
+  {
+    "question": "What is the benefit of using `safeMath` library in Solidity?",
+    "context": "The `safeMath` library helps prevent integer overflow and underflow issues.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It reduces gas consumption."
+      },
+      {
+        "choice": "B",
+        "answer": "It increases the readability of the code."
+      },
+      {
+        "choice": "C",
+        "answer": "It prevents integer overflow and underflow."
+      },
+      {
+        "choice": "D",
+        "answer": "It simplifies the contract's logic."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "What does the `view` keyword signify in a Solidity function?",
+    "context": "The `view` keyword indicates that the function does not alter the state of the contract.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "The function can only read state variables but not modify them."
+      },
+      {
+        "choice": "B",
+        "answer": "The function can both read and modify state variables."
+      },
+      {
+        "choice": "C",
+        "answer": "The function cannot access state variables."
+      },
+      {
+        "choice": "D",
+        "answer": "The function is internal to the contract."
+      }
+    ],
+    "correctAnswers": ["A"]
+  },
+  {
+    "question": "Why should you use `keccak256` hashing in Solidity?",
+    "context": "The `keccak256` function is used to generate a deterministic hash of input data, which is useful for cryptographic operations.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It is faster than other hashing functions."
+      },
+      {
+        "choice": "B",
+        "answer": "It generates unique identifiers for contract addresses."
+      },
+      {
+        "choice": "C",
+        "answer": "It provides a secure way to hash data."
+      },
+      {
+        "choice": "D",
+        "answer": "It is the only hashing function available in Solidity."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "What is the importance of the `fallback` function in Solidity?",
+    "context": "The `fallback` function is called when a contract receives Ether without any data or when a function does not exist.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To accept Ether sent to the contract without data."
+      },
+      {
+        "choice": "B",
+        "answer": "To execute a function without specifying its name."
+      },
+      {
+        "choice": "C",
+        "answer": "To revert transactions automatically."
+      },
+      {
+        "choice": "D",
+        "answer": "To perform administrative tasks."
+      }
+    ],
+    "correctAnswers": ["A"]
+  },
+  {
+    "question": "Why is it important to set sensible gas limits in Solidity transactions?",
+    "context": "Setting gas limits can prevent transactions from running out of gas and failing unexpectedly.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It ensures that the transaction is executed faster."
+      },
+      {
+        "choice": "B",
+        "answer": "It prevents the transaction from running out of gas."
+      },
+      {
+        "choice": "C",
+        "answer": "It reduces the cost of the transaction."
+      },
+      {
+        "choice": "D",
+        "answer": "It allows for larger transactions."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "What is the use of the `revert` statement in Solidity?",
+    "context": "The `revert` statement is used to stop execution and revert all changes if a condition is not met.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To continue execution even if a condition is not met."
+      },
+      {
+        "choice": "B",
+        "answer": "To revert all changes and stop execution if a condition is not met."
+      },
+      {
+        "choice": "C",
+        "answer": "To pause the execution of the contract."
+      },
+      {
+        "choice": "D",
+        "answer": "To transfer Ether to another address."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "Why is it important to check the return values of external calls in Solidity?",
+    "context": "Checking return values of external calls can help detect and handle failures appropriately.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It increases the gas cost of the transaction."
+      },
+      {
+        "choice": "B",
+        "answer": "It ensures that the external call succeeded and any errors are handled."
+      },
+      {
+        "choice": "C",
+        "answer": "It reduces the security of the contract."
+      },
+      {
+        "choice": "D",
+        "answer": "It simplifies the contract's logic."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "How can you handle errors from low-level calls in Solidity?",
+    "context": "Errors from low-level calls can be handled using the `try/catch` construct or by checking the return value manually.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "By using the `selfdestruct` function."
+      },
+      {
+        "choice": "B",
+        "answer": "By checking the return value and revert data."
+      },
+      {
+        "choice": "C",
+        "answer": "By using assembly code."
+      },
+      {
+        "choice": "D",
+        "answer": "By using `require` statements."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "Why is it recommended to use interfaces for external calls in Solidity?",
+    "context": "Using interfaces for external calls promotes modularity and security by defining clear interaction points.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It reduces the gas cost of the transaction."
+      },
+      {
+        "choice": "B",
+        "answer": "It increases the execution speed of the contract."
+      },
+      {
+        "choice": "C",
+        "answer": "It defines clear interaction points and improves modularity and security."
+      },
+      {
+        "choice": "D",
+        "answer": "It allows for easier upgrades to the contract."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "What is the purpose of the `require` statement in Solidity?",
+    "context": "The `require` statement is used to ensure that conditions are met before executing further code.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To update the contract state."
+      },
+      {
+        "choice": "B",
+        "answer": "To validate inputs and conditions before executing further code."
+      },
+      {
+        "choice": "C",
+        "answer": "To reduce gas costs."
+      },
+      {
+        "choice": "D",
+        "answer": "To create new tokens."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "How can you ensure a contract function is only called by the contract owner?",
+    "context": "Using the `onlyOwner` modifier can restrict function access to the contract owner.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "By using the `require` statement."
+      },
+      {
+        "choice": "B",
+        "answer": "By using the `onlyOwner` modifier."
+      },
+      {
+        "choice": "C",
+        "answer": "By using the `private` keyword."
+      },
+      {
+        "choice": "D",
+        "answer": "By using the `external` keyword."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "Why should you avoid using `tx.origin` for authorization checks?",
+    "context": "Using `tx.origin` can expose contracts to phishing attacks.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It increases gas costs."
+      },
+      {
+        "choice": "B",
+        "answer": "It can be manipulated by attackers."
+      },
+      {
+        "choice": "C",
+        "answer": "It reduces contract performance."
+      },
+      {
+        "choice": "D",
+        "answer": "It is deprecated in newer Solidity versions."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "What is the benefit of using the `modifier` keyword in Solidity?",
+    "context": "Modifiers can add pre- and post-conditions to functions.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To reduce gas costs."
+      },
+      {
+        "choice": "B",
+        "answer": "To make functions private."
+      },
+      {
+        "choice": "C",
+        "answer": "To add pre- and post-conditions to functions."
+      },
+      {
+        "choice": "D",
+        "answer": "To define new functions."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "How can you protect against integer overflow and underflow in Solidity?",
+    "context": "Using the SafeMath library can prevent integer overflow and underflow.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "By using `require` statements."
+      },
+      {
+        "choice": "B",
+        "answer": "By using the SafeMath library."
+      },
+      {
+        "choice": "C",
+        "answer": "By using the `revert` statement."
+      },
+      {
+        "choice": "D",
+        "answer": "By using the `assert` statement."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "Why should you initialize state variables in Solidity?",
+    "context": "Uninitialized state variables can lead to security vulnerabilities.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It improves gas efficiency."
+      },
+      {
+        "choice": "B",
+        "answer": "It prevents security vulnerabilities."
+      },
+      {
+        "choice": "C",
+        "answer": "It makes the code easier to read."
+      },
+      {
+        "choice": "D",
+        "answer": "It reduces the contract size."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "What is the purpose of the `fallback` function in Solidity?",
+    "context": "The `fallback` function is called when a contract receives Ether without data or when a function does not exist.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To accept Ether sent to the contract without data."
+      },
+      {
+        "choice": "B",
+        "answer": "To execute a function without specifying its name."
+      },
+      {
+        "choice": "C",
+        "answer": "To revert transactions automatically."
+      },
+      {
+        "choice": "D",
+        "answer": "To perform administrative tasks."
+      }
+    ],
+    "correctAnswers": ["A"]
+  },
+  {
+    "question": "What is a reentrancy attack in Solidity?",
+    "context": "A reentrancy attack occurs when a contract calls another contract before updating its state.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "An attack that exploits gas limits."
+      },
+      {
+        "choice": "B",
+        "answer": "An attack that occurs when a contract calls another contract before updating its state."
+      },
+      {
+        "choice": "C",
+        "answer": "An attack that uses the `selfdestruct` function."
+      },
+      {
+        "choice": "D",
+        "answer": "An attack that uses integer overflow."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "How can you prevent reentrancy attacks in Solidity?",
+    "context": "Using the Checks-Effects-Interactions pattern can help prevent reentrancy attacks.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "By using the `selfdestruct` function."
+      },
+      {
+        "choice": "B",
+        "answer": "By updating state variables before making external calls."
+      },
+      {
+        "choice": "C",
+        "answer": "By using the SafeMath library."
+      },
+      {
+        "choice": "D",
+        "answer": "By using `require` statements at the end of functions."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "What is the purpose of the `delegatecall` function in Solidity?",
+    "context": "The `delegatecall` function is used to call functions from another contract while preserving the current contract's context.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To execute a function without paying gas fees."
+      },
+      {
+        "choice": "B",
+        "answer": "To call functions from another contract and preserve the caller's context."
+      },
+      {
+        "choice": "C",
+        "answer": "To send Ether to another contract."
+      },
+      {
+        "choice": "D",
+        "answer": "To revert transactions."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "Why should you use the OpenZeppelin libraries when developing smart contracts?",
+    "context": "OpenZeppelin provides a set of audited smart contract libraries to help developers implement secure contracts.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "They are less gas-efficient than writing your own code."
+      },
+      {
+        "choice": "B",
+        "answer": "They provide ready-made solutions that are less secure."
+      },
+      {
+        "choice": "C",
+        "answer": "They offer well-audited and tested implementations for common patterns."
+      },
+      {
+        "choice": "D",
+        "answer": "They allow writing smart contracts without Solidity."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "How can you handle errors from low-level calls in Solidity?",
+    "context": "Errors from low-level calls can be handled using the `try/catch` construct or by checking the return value manually.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "By using the `selfdestruct` function."
+      },
+      {
+        "choice": "B",
+        "answer": "By checking the return value and revert data."
+      },
+      {
+        "choice": "C",
+        "answer": "By using assembly code."
+      },
+      {
+        "choice": "D",
+        "answer": "By using `require` statements."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "Why is it important to check the return values of external calls in Solidity?",
+    "context": "Checking return values of external calls can help detect and handle failures appropriately.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It increases the gas cost of the transaction."
+      },
+      {
+        "choice": "B",
+        "answer": "It ensures that the external call succeeded and any errors are handled."
+      },
+      {
+        "choice": "C",
+        "answer": "It reduces the security of the contract."
+      },
+      {
+        "choice": "D",
+        "answer": "It simplifies the contract's logic."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "What is the benefit of using `safeMath` library in Solidity?",
+    "context": "The `safeMath` library helps prevent integer overflow and underflow issues.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It reduces gas consumption."
+      },
+      {
+        "choice": "B",
+        "answer": "It increases the readability of the code."
+      },
+      {
+        "choice": "C",
+        "answer": "It prevents integer overflow and underflow."
+      },
+      {
+        "choice": "D",
+        "answer": "It simplifies the contract's logic."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "Why should you use `keccak256` hashing in Solidity?",
+    "context": "The `keccak256` function is used to generate a deterministic hash of input data, which is useful for cryptographic operations.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It is faster than other hashing functions."
+      },
+      {
+        "choice": "B",
+        "answer": "It generates unique identifiers for contract addresses."
+      },
+      {
+        "choice": "C",
+        "answer": "It provides a secure way to hash data."
+      },
+      {
+        "choice": "D",
+        "answer": "It is the only hashing function available in Solidity."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "Why should you avoid using `now` for time-based functions in Solidity?",
+    "context": "The `now` keyword is an alias for `block.timestamp` which can be manipulated by miners.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It increases the gas cost."
+      },
+      {
+        "choice": "B",
+        "answer": "It can be manipulated by miners to some extent."
+      },
+      {
+        "choice": "C",
+        "answer": "It reduces the security of the contract."
+      },
+      {
+        "choice": "D",
+        "answer": "It is deprecated in newer versions of Solidity."
+      }
+    ],
+    "correctAnswers": ["B", "D"]
+  },
+  {
+    "question": "What is the importance of using interfaces for external calls in Solidity?",
+    "context": "Using interfaces for external calls promotes modularity and security by defining clear interaction points.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It reduces the gas cost of the transaction."
+      },
+      {
+        "choice": "B",
+        "answer": "It increases the execution speed of the contract."
+      },
+      {
+        "choice": "C",
+        "answer": "It defines clear interaction points and improves modularity and security."
+      },
+      {
+        "choice": "D",
+        "answer": "It allows for easier upgrades to the contract."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "How can you limit the impact of a failed call in Solidity?",
+    "context": "Using the `try/catch` construct can help handle errors gracefully and prevent contract failure.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "By using `require` statements at the end of functions."
+      },
+      {
+        "choice": "B",
+        "answer": "By using the `selfdestruct` function."
+      },
+      {
+        "choice": "C",
+        "answer": "By using the `try/catch` construct."
+      },
+      {
+        "choice": "D",
+        "answer": "By using assembly code."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "What is the purpose of the `revert` statement in Solidity?",
+    "context": "The `revert` statement is used to stop execution and revert all changes if a condition is not met.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To continue execution even if a condition is not met."
+      },
+      {
+        "choice": "B",
+        "answer": "To revert all changes and stop execution if a condition is not met."
+      },
+      {
+        "choice": "C",
+        "answer": "To pause the execution of the contract."
+      },
+      {
+        "choice": "D",
+        "answer": "To transfer Ether to another address."
+      }
+    ],
+    "correctAnswers": ["B"]
+  },
+  {
+    "question": "What is the primary purpose of using the `modifier` keyword in Solidity?",
+    "context": "Modifiers are used to change the behavior of functions in a declarative way.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To add additional parameters to functions."
+      },
+      {
+        "choice": "B",
+        "answer": "To enable the use of assembly code within functions."
+      },
+      {
+        "choice": "C",
+        "answer": "To apply common checks or setup code to multiple functions."
+      },
+      {
+        "choice": "D",
+        "answer": "To define fallback functions."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "What is the purpose of the `selfdestruct` function in Solidity?",
+    "context": "The `selfdestruct` function removes the contract from the blockchain and sends its funds to a specified address.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "To pause the contract."
+      },
+      {
+        "choice": "B",
+        "answer": "To change the owner of the contract."
+      },
+      {
+        "choice": "C",
+        "answer": "To remove the contract from the blockchain and transfer its balance."
+      },
+      {
+        "choice": "D",
+        "answer": "To create a new contract."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "How can you ensure a function is only callable by certain addresses in Solidity?",
+    "context": "Using access control mechanisms like `onlyOwner` can restrict function access to specific addresses.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "By using the `private` keyword."
+      },
+      {
+        "choice": "B",
+        "answer": "By using the `external` keyword."
+      },
+      {
+        "choice": "C",
+        "answer": "By using access control mechanisms like `onlyOwner`."
+      },
+      {
+        "choice": "D",
+        "answer": "By using the `public` keyword."
+      }
+    ],
+    "correctAnswers": ["C"]
+  },
+  {
+    "question": "What is a potential risk of using the `tx.origin` variable in Solidity for authorization?",
+    "context": "Using `tx.origin` can expose contracts to phishing attacks where the origin can be manipulated.",
+    "possibleAnswers": [
+      {
+        "choice": "A",
+        "answer": "It is less efficient than using `msg.sender`."
+      },
+      {
+        "choice": "B",
+        "answer": "It can be manipulated in phishing attacks."
+      },
+      {
+        "choice": "C",
+        "answer": "It does not work with smart contracts."
+      },
+      {
+        "choice": "D",
+        "answer": "It increases the gas cost of transactions."
+      }
+    ],
+    "correctAnswers": ["B"]
+  }
+]
