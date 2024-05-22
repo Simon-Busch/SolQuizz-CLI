@@ -11,6 +11,10 @@ const mapping = {
   "D": 3,
 }
 
+let total = 0;
+let streak = 0;
+let dataset = null;
+
 const askQuestion = async (choices) => {
   const answer = await checkbox({
     message:
@@ -29,13 +33,24 @@ const continuePrompt = async (isBasic) => {
 
 async function promptQuestion(level) {
   let questionDataSet;
-
+  if (dataset) {
+    questionDataSet = dataset;
+  }
   if (level === "basic") {
     questionDataSet = basicQuestions;
+    dataset = questionDataSet;
   } else if (level === "advanced") {
     questionDataSet = advancedQuestions;
+    dataset = questionDataSet;
   } else if (level === "security") {
     questionDataSet = securityQuestions;
+    dataset = questionDataSet;
+  }
+
+
+  total = questionDataSet.length;
+  if (total === 0) {
+    console.log("You're done, congrats!");
   }
   const randomIndex = Math.floor(Math.random() * questionDataSet.length);
   const question = questionDataSet[randomIndex];
@@ -45,12 +60,15 @@ async function promptQuestion(level) {
     value: answer.choice,
   }));
   console.log("\x1b[34m===========================");
-  console.log("\x1b[0mContext:");
-  console.log(question.context);
-  console.log("\x1b[34m===========================");
   console.log("\x1b[1m\x1b[32m" + question.question);
   console.log("\x1b[34m===========================");
   console.log("\x1b[0m");
+  console.log("\x1b[0mContext:");
+  console.log(question.context);
+  console.log("\x1b[34m===========================");
+  console.log("\x1b[0m");
+  console.log("total questions: ", total);
+  console.log("current streak: ", streak);
 
   let answer;
   answer = await askQuestion(choices);
@@ -66,7 +84,9 @@ async function promptQuestion(level) {
   if (isCorrect) {
     console.log("\x1b[32mCorrect 🎉")
     console.log("\x1b[0m")
-
+    // remove the question from the dataset
+    questionDataSet.splice(randomIndex, 1);
+    streak++;
   } else {
     console.log("\x1b[31mIncorrect. The correct answer is: " + correctAnswers.join(", "));
     console.log(question.possibleAnswers[mapping[correctAnswers[0]]].answer)
